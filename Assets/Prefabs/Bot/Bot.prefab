@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7516320877148357246}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -148,7 +147,7 @@ GameObject:
   - component: {fileID: 1653294783504317936}
   - component: {fileID: 2158606334689934764}
   - component: {fileID: 825600418962636032}
-  m_Layer: 13
+  m_Layer: 10
   m_Name: Nose
   m_TagString: Nose
   m_Icon: {fileID: 0}
@@ -162,13 +161,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3030657287318589941}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.901}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6453533188185114702}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4380930741032917873
 MeshFilter:
@@ -255,7 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerBody:
     serializedVersion: 2
-    m_Bits: 16384
+    m_Bits: 512
 --- !u!1 &6837322542511998944
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,7 +288,6 @@ RectTransform:
   m_Children:
   - {fileID: 8078490086914921041}
   m_Father: {fileID: 6453533188185114702}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -379,7 +377,7 @@ GameObject:
   - component: {fileID: 2986311671209798972}
   - component: {fileID: -6441073078109347604}
   - component: {fileID: -8482741633530409400}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Bot
   m_TagString: Body
   m_Icon: {fileID: 0}
@@ -393,6 +391,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8560756102761156605}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -401,7 +400,6 @@ Transform:
   - {fileID: 7516320877148357246}
   - {fileID: 2269699057011811956}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6554636701669859633
 MeshFilter:
@@ -505,10 +503,10 @@ MonoBehaviour:
     m_Bits: 128
   smallCollectable:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 4096
   bigCollectables:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 8192
   fruitValue: 1
   smallDestructibleValue: 2
   bigDestructibleValue: 4
@@ -575,7 +573,7 @@ MonoBehaviour:
   initialFruitPoolSize: 100
   weapon:
     serializedVersion: 2
-    m_Bits: 40960
+    m_Bits: 256
   botScore: {fileID: 8736731481065457722}
 --- !u!114 &2986311671209798972
 MonoBehaviour:
@@ -595,7 +593,7 @@ MonoBehaviour:
   rb: {fileID: 8457357620491125025}
   boundLayer:
     serializedVersion: 2
-    m_Bits: 65536
+    m_Bits: 32768
 --- !u!114 &-6441073078109347604
 MonoBehaviour:
   m_ObjectHideFlags: 0
