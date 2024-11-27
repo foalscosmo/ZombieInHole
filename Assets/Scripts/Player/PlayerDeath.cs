@@ -11,17 +11,20 @@ namespace Player
         public event Action OnPlayerDeath;
 
         [SerializeField] private List<GameObject> fruitPrefabs;
-        [SerializeField] private int initialFruitPoolSize = 300;
+        [SerializeField] private int initialFruitPoolSize;
         [SerializeField] private LayerMask weapon;
         [SerializeField] private PlayerScore playerScore;
 
-        private readonly List<GameObject> _fruitPool = new();
-        private int _fruitAmount;
-        private Transform _fruitContainer;
+        private readonly List<DroppableFruit> droppableFruits = new();
+        
+        private readonly List<GameObject> fruitPool = new();
+        private int fruitAmount;
+        private Transform fruitContainer;
+        private bool isDead;
 
         private void Start()
         {
-            _fruitContainer = new GameObject("Player FruitContainer").transform;
+            fruitContainer = new GameObject("Player FruitContainer").transform;
             InitializeFruitPool();
         }
 
@@ -29,10 +32,13 @@ namespace Player
         {
             for (int i = 0; i < initialFruitPoolSize; i++)
             {
-                GameObject randomFruit = fruitPrefabs[Random.Range(0, fruitPrefabs.Count)];
-                GameObject fruitInstance = Instantiate(randomFruit, _fruitContainer); 
+                var randomFruit = fruitPrefabs[Random.Range(0, fruitPrefabs.Count)];
+                var fruitInstance = Instantiate(randomFruit, fruitContainer); 
                 fruitInstance.SetActive(false);
-                _fruitPool.Add(fruitInstance);
+                fruitPool.Add(fruitInstance);
+                
+                var droppableFruit = fruitInstance.GetComponent<DroppableFruit>();
+                if (droppableFruit != null) droppableFruits.Add(droppableFruit);
             }
         }
 
@@ -46,37 +52,38 @@ namespace Player
 
         private void HandleDeath()
         {
-            _fruitAmount = Mathf.RoundToInt(playerScore.CurrentScore);
-            Vector3 deathPosition = transform.position;
+            fruitAmount = Mathf.RoundToInt(playerScore.CurrentScore);
+            var deathPosition = transform.position;
             OnPlayerDeath?.Invoke();
-            DropFruits(deathPosition, _fruitAmount);
+            DropFruits(deathPosition, fruitAmount);
             gameObject.SetActive(false);
         }
 
-        private void DropFruits(Vector3 botPosition, int fruitAmount)
+        private void DropFruits(Vector3 botPosition, int amount)
         {
-            for (int i = 0; i < fruitAmount; i++)
+            for (int i = 0; i < amount; i++)
             {
-                GameObject fruit = GetFruitFromPool();
+                var fruit = GetFruitFromPool();
                 if (fruit != null)
                 {
-                    Vector3 randomDirection = Random.onUnitSphere;
-                    float radius = 1f; 
+                    var randomDirection = Random.onUnitSphere;
+                    var radius = 1f; 
                     fruit.transform.position = botPosition + randomDirection * radius; 
                     fruit.SetActive(true);
-                    fruit.GetComponent<DroppableFruit>().Throw(botPosition);
+                    
+                    var droppableFruit = droppableFruits[fruitPool.IndexOf(fruit)];
+                    droppableFruit.Throw(botPosition);
                 }
             }
         }
 
         private GameObject GetFruitFromPool()
         {
-            foreach (GameObject fruit in _fruitPool)
+            foreach (var fruit in fruitPool)
             {
                 if (!fruit.activeInHierarchy)
                     return fruit;
             }
-
             return null;
         }
     }

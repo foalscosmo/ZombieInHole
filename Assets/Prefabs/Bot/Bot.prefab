@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 2986311671209798972}
   - component: {fileID: -6441073078109347604}
   - component: {fileID: -8482741633530409400}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Bot
   m_TagString: Body
   m_Icon: {fileID: 0}
@@ -498,18 +498,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73a080c3e0184904bbf38b2dd6deecc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectable:
+  smallCollectable:
     serializedVersion: 2
     m_Bits: 128
-  smallCollectable:
+  mediumCollectable:
     serializedVersion: 2
     m_Bits: 4096
   bigCollectables:
     serializedVersion: 2
     m_Bits: 8192
-  fruitValue: 1
-  smallDestructibleValue: 2
-  bigDestructibleValue: 4
+  smallCollectablesValue: 1
+  mediumCollectablesValue: 2
+  bigCollectableValue: 4
   botWeapon: {fileID: 825600418962636032}
 --- !u!54 &8457357620491125025
 Rigidbody:
@@ -570,10 +570,10 @@ MonoBehaviour:
   - {fileID: 388876489497171537, guid: d0ddd93953187fd4195f9cea4a7b8a56, type: 3}
   - {fileID: 1765995492758009968, guid: cff631b005b811944a846f281776d825, type: 3}
   - {fileID: 3388152910422019967, guid: ad2b9f91d62464b81a5e6a98f9fb6796, type: 3}
-  initialFruitPoolSize: 100
+  initialFruitPoolSize: 300
   weapon:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 1280
   botScore: {fileID: 8736731481065457722}
 --- !u!114 &2986311671209798972
 MonoBehaviour:
@@ -590,6 +590,7 @@ MonoBehaviour:
   moveSpeed: 4
   directionChangeInterval: 3
   rotationSpeed: 15
+  collisionCooldown: 1
   rb: {fileID: 8457357620491125025}
   boundLayer:
     serializedVersion: 2
@@ -606,8 +607,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 411060de4483b5e4c9847cd3cbc18554, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetColor: {r: 1, g: 0, b: 0, a: 0.3529412}
-  needBoxIndicator: 1
+  targetColor: {r: 0, g: 0, b: 0, a: 1}
+  needBoxIndicator: 0
   needArrowIndicator: 1
   needDistanceText: 1
   indicator: {fileID: 0}

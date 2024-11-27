@@ -16,6 +16,11 @@ namespace Player
         private Vector2 _movementAmount;
         private Vector3 _lastDirection;
 
+        public float MoveSpeed
+        {
+            get => moveSpeed;
+            set => moveSpeed = value;
+        }
         private void OnEnable()
         {
             EnhancedTouchSupport.Enable();

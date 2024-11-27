@@ -1,19 +1,21 @@
-using System;
 using UnityEngine;
 
-public class RankScore : MonoBehaviour
+namespace Managers
 {
-    public string playerName; 
-    public float score;
-
-    private void Start()
+    public class RankScore : MonoBehaviour
     {
-        playerName = gameObject.name;
-    }
+        public string playerName; 
+        public float score;
 
-    public RankScore(string playerName, int score)
-    {
-        this.playerName = playerName;
-        this.score = score;
+        private void Start()
+        {
+            playerName = gameObject.name;
+        }
+
+        public RankScore(string playerName, int score)
+        {
+            this.playerName = playerName;
+            this.score = score;
+        }
     }
 }

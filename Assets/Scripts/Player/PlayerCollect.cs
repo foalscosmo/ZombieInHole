@@ -5,14 +5,19 @@ namespace Player
 {
     public class PlayerCollect : MonoBehaviour
     {
-        [SerializeField] private LayerMask collectable;
         [SerializeField] private LayerMask smallCollectable;
+        [SerializeField] private LayerMask mediumCollectable;
         [SerializeField] private LayerMask bigCollectables;
         [SerializeField] private GameObject floatingScoringText;
         [SerializeField] private float fruitValue;
-        [SerializeField] private float smallDestructibleValue;
-        [SerializeField] private float bigDestructibleValue;
-        
+        [SerializeField] private float smallCollectableValue;
+        [SerializeField] private float bigCollectableValue;
+
+        public int CurrentGameStage
+        {
+            get => CurrentGameStage;
+            set => CurrentGameStage = value;
+        }
         public event Action<float> OnCollectFruit;
         public event Action<float> OnDestructibleCollect;
         public event Action<float> OnBotCollect;
@@ -31,22 +36,22 @@ namespace Player
 
         private void OnTriggerEnter(Collider other)
         {
-            if (((1 << other.gameObject.layer) & collectable) != 0)
+            if (((1 << other.gameObject.layer) & smallCollectable) != 0)
             {
                 InstantiateTextWhenCollect(fruitValue);
                 OnCollectFruit?.Invoke(fruitValue);
             }
         
-            if (((1 << other.gameObject.layer) & smallCollectable) != 0)
+            if (((1 << other.gameObject.layer) & mediumCollectable) != 0)
             {
-                InstantiateTextWhenCollect(smallDestructibleValue);
-                OnDestructibleCollect?.Invoke(smallDestructibleValue);
+                InstantiateTextWhenCollect(smallCollectableValue);
+                OnDestructibleCollect?.Invoke(smallCollectableValue);
             }
 
             if (((1 << other.gameObject.layer) & bigCollectables) != 0)
             {
-                InstantiateTextWhenCollect(bigDestructibleValue);
-                OnDestructibleCollect?.Invoke(bigDestructibleValue);
+                InstantiateTextWhenCollect(bigCollectableValue);
+                OnDestructibleCollect?.Invoke(bigCollectableValue);
             }
         }
 

@@ -6,6 +6,7 @@ using Player;
 using Ui;
 using UnityEngine;
 using UnityEngine.UI;
+using CameraFollow = Hole.CameraFollow;
 
 namespace Managers
 {
@@ -19,6 +20,8 @@ namespace Managers
         [SerializeField] private PlayerScaler playerScaler;
         [SerializeField] private PlayerScore playerScore;
         [SerializeField] private CameraFollow cameraFollow;
+        [SerializeField] private GameStageManager gameStageManager;
+        [SerializeField] private PlayerMovement playerMovement;
 
         private void Awake()
         {
@@ -41,6 +44,7 @@ namespace Managers
         {
             joystick.gameObject.SetActive(false);
             restartButton.gameObject.SetActive(true);
+            gameStageManager.IsPlayerDead = true;
             restartButton.transform.DOScale(5, 1f);
         }
 
@@ -53,6 +57,8 @@ namespace Managers
             cameraFollow.ResetCameraDistance();
             playerScore.SetPlayerStartLevelScore();
             playerScore.SetStartKillScore();
+            gameStageManager.IsPlayerDead = false;
+            playerMovement.MoveSpeed = 5f;
             StartCoroutine(HandlePlayerUnKillable());
         }
 

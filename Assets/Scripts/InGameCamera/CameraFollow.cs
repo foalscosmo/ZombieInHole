@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace InGameCamera
@@ -32,10 +33,17 @@ namespace InGameCamera
             transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
         }
 
+        
         public void UpdateTargetDistance(float zoomAmount)
         {
-            _currentDistance += (zoomAmount * zoomSpeed) / 7;
-            _currentDistance = Mathf.Clamp(_currentDistance, minZoomDistance, maxZoomDistance); // Clamp to min and max
+            StartCoroutine(FollowCameraZoomTimer(zoomAmount));
+        }
+
+        private IEnumerator FollowCameraZoomTimer(float zoomAmount)
+        {
+            yield return new WaitForSecondsRealtime(0.3f);
+            _currentDistance += (zoomAmount * zoomSpeed) / 10;
+            _currentDistance = Mathf.Clamp(_currentDistance, minZoomDistance, maxZoomDistance); 
         }
 
         public void ResetCameraDistance()

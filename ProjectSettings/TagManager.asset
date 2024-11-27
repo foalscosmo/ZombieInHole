@@ -15,19 +15,19 @@ TagManager:
   - Water
   - UI
   - Player
-  - Collectables
+  - SmallCollectables
   - PlayerNose
   - PlayerBody
   - BotNose
   - BotBody
-  - SmallCollectables
+  - MediumCollectables
   - BigCollectables
-  - Destructibles
+  - 
   - Bounds
-  - 
-  - 
-  - 
-  - 
+  - MegaCollectables
+  - FallingSphereLayer
+  - NormalSphereLayer
+  - GroundLayer
   - 
   - 
   - 

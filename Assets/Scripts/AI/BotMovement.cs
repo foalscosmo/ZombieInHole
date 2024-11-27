@@ -9,10 +9,12 @@ namespace AI
         [SerializeField] private float moveSpeed = 4f;
         [SerializeField] private float directionChangeInterval = 3f;
         [SerializeField] private float rotationSpeed = 15f;
+        [SerializeField] private float collisionCooldown = 1f; // Cooldown after a collision
 
         private Vector3 _movementDirection;
         [SerializeField] private Rigidbody rb;
         [SerializeField] private LayerMask boundLayer;
+        private bool canChangeDirection = true; // Direction change cooldown flag
 
         private void Start()
         {
@@ -37,7 +39,10 @@ namespace AI
             while (true)
             {
                 yield return new WaitForSeconds(directionChangeInterval);
-                SetRandomDirection();
+                if (canChangeDirection)
+                {
+                    SetRandomDirection();
+                }
             }
         }
 
@@ -52,10 +57,18 @@ namespace AI
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (((1 << collision.gameObject.layer) & boundLayer) != 0)
+            if (((1 << collision.gameObject.layer) & boundLayer) != 0 && canChangeDirection)
             {
-                _movementDirection = -_movementDirection;
+                _movementDirection = -_movementDirection; // Reverse direction
+                StartCoroutine(CollisionCooldownRoutine());
             }
+        }
+
+        private IEnumerator CollisionCooldownRoutine()
+        {
+            canChangeDirection = false; // Disable direction changes
+            yield return new WaitForSeconds(collisionCooldown);
+            canChangeDirection = true; // Re-enable direction changes
         }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Player;
 using Ui;
@@ -9,6 +10,7 @@ namespace Managers
     {
         [SerializeField] private PlayerScore playerScore;
         [SerializeField] private PlayerCollect playerCollect;
+        [SerializeField] private RankScore playerRankScore;
         
         private void OnEnable()
         {
@@ -37,6 +39,11 @@ namespace Managers
             playerCollect.OnCollectFruit -= playerScore.SetPlayerLevelScore;
             playerCollect.OnDestructibleCollect -= playerScore.SetPlayerLevelScore;
             playerCollect.OnBotCollect -= playerScore.SetPlayerLevelScore;
+        }
+
+        private void Awake()
+        {
+            playerRankScore.gameObject.name = "FoalsCosmo";
         }
     }
 }

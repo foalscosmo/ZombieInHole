@@ -5,12 +5,12 @@ namespace AI
 {
     public class BotCollect : MonoBehaviour
     {
-        [SerializeField] private LayerMask collectable;
         [SerializeField] private LayerMask smallCollectable;
+        [SerializeField] private LayerMask mediumCollectable;
         [SerializeField] private LayerMask bigCollectables;
-        [SerializeField] private float fruitValue;
-        [SerializeField] private float smallDestructibleValue;
-        [SerializeField] private float bigDestructibleValue;
+        [SerializeField] private float smallCollectablesValue;
+        [SerializeField] private float mediumCollectablesValue;
+        [SerializeField] private float bigCollectableValue;
         public event Action<float> OnCollectFruit;
         public event Action<float> OnDestructibleCollect;
         public event Action<float> OnPlayerCollect;
@@ -29,19 +29,19 @@ namespace AI
 
         private void OnTriggerEnter(Collider other)
         {
-            if (((1 << other.gameObject.layer) & collectable) != 0)
-            {
-                OnCollectFruit?.Invoke(fruitValue);
-            }
-        
             if (((1 << other.gameObject.layer) & smallCollectable) != 0)
             {
-                OnDestructibleCollect?.Invoke(smallDestructibleValue);
+                OnCollectFruit?.Invoke(smallCollectablesValue);
+            }
+        
+            if (((1 << other.gameObject.layer) & mediumCollectable) != 0)
+            {
+                OnDestructibleCollect?.Invoke(mediumCollectablesValue);
             }
 
             if (((1 << other.gameObject.layer) & bigCollectables) != 0)
             {
-                OnDestructibleCollect?.Invoke(bigDestructibleValue);
+                OnDestructibleCollect?.Invoke(bigCollectableValue);
             }
         }
 

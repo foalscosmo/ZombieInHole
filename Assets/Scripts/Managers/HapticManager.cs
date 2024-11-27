@@ -7,6 +7,8 @@ namespace Managers
     public class HapticManager : MonoBehaviour
     {
         [SerializeField] private PlayerCollect playerCollect;
+        [SerializeField] private float hapticCooldown; 
+        private float lastHapticTime;
         private void OnEnable()
         {
             playerCollect.OnCollectFruit += HandleHapticsWhenCollect;
@@ -18,23 +20,28 @@ namespace Managers
             playerCollect.OnCollectFruit -= HandleHapticsWhenCollect;
             playerCollect.OnDestructibleCollect -= HandleHapticsWhenCollect;
         }
-
+        
         private void HandleHapticsWhenCollect(float index)
         {
-            switch (index)
+            if (Time.time - lastHapticTime >= hapticCooldown)
             {
-                case 1f:
-                    HapticFeedback.MediumFeedback();
-                    break;
-                case 2f:
-                    HapticFeedback.MediumFeedback();
-                    break;
-                case 4f:
-                    HapticFeedback.MediumFeedback();
-                    break;
-                case 8f:
-                    HapticFeedback.MediumFeedback();
-                    break;
+                lastHapticTime = Time.time;
+
+                switch (index)
+                {
+                    case 1f:
+                        HapticFeedback.MediumFeedback();
+                        break;
+                    case 2f:
+                        HapticFeedback.MediumFeedback();
+                        break;
+                    case 4f:
+                        HapticFeedback.MediumFeedback();
+                        break;
+                    case 8f:
+                        HapticFeedback.MediumFeedback();
+                        break;
+                }
             }
         }
     }

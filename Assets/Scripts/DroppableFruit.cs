@@ -4,16 +4,11 @@ using Random = UnityEngine.Random;
 
 public class DroppableFruit : MonoBehaviour
 {
-    public float upForce = 10f; 
+    // public float upForce; 
     public float sideForce = 10f; 
-    public float throwDuration = 0.1f;
+    public float throwDuration;
     [SerializeField] private BoxCollider boxCollider;
-
-    private void Start()
-    {
-        transform.localScale = new Vector3(4, 4, 4);
-    }
-
+    
     public void Throw(Vector3 origin)
     {
         origin.y = 1f;
@@ -39,8 +34,8 @@ public class DroppableFruit : MonoBehaviour
 
             Vector3 positionXZ = Vector3.Lerp(origin, targetPosition, t);
 
-            float arcHeight = Mathf.Sin(t * Mathf.PI) * upForce;
-            positionXZ.y = Mathf.Lerp(origin.y, targetPosition.y, t) + arcHeight;
+           // float arcHeight = Mathf.Sin(t * Mathf.PI) * upForce;
+           positionXZ.y = Mathf.Lerp(origin.y, targetPosition.y, t);// + arcHeight;
 
             transform.position = positionXZ;
 

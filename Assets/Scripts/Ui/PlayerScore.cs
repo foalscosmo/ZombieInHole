@@ -107,10 +107,16 @@ namespace Ui
                         currentLevelMaxScore = 140;
                         break;
                     case 3:
-                        currentLevelMaxScore = 500;
+                        currentLevelMaxScore = 250;
                         break;
                     case 4:
-                        currentLevelMaxScore = 1200;
+                        currentLevelMaxScore = 350;
+                        break;
+                    case 5:
+                        currentLevelMaxScore = 450;
+                        break;
+                    case 6:
+                        currentLevelMaxScore = 550;
                         break;
                 }
 

@@ -7,24 +7,24 @@ namespace Environment
 {
     public class FruitPoolManager : MonoBehaviour
     {
-       [SerializeField] private List<FruitData> fruitTypes = new();
-        [SerializeField] private int poolSize = 10; 
+        [SerializeField] private List<FruitData> fruitTypes = new();
+        [SerializeField] private int poolSize; 
         [SerializeField] private Vector2 spawnAreaMin; 
         [SerializeField] private Vector2 spawnAreaMax; 
 
-        private readonly List<GameObject> _fruitPool = new();
+        private readonly List<GameObject> fruitPool = new();
 
         private void OnEnable()
         {
-            FruitCollector.OnFruitCollectedPlayer += DOHandleFruitCollectedPlayer;
-            FruitCollector.OnFruitCollectedBot += DOHandleFruitCollectedPlayer;
+            FruitCollector.OnFruitCollectedPlayer += DoHandleFruitCollectedPlayer;
+            FruitCollector.OnFruitCollectedBot += DoHandleFruitCollectedPlayer;
 
         }
 
         private void OnDisable()
         {
-            FruitCollector.OnFruitCollectedPlayer -= DOHandleFruitCollectedPlayer;
-            FruitCollector.OnFruitCollectedBot -= DOHandleFruitCollectedPlayer;
+            FruitCollector.OnFruitCollectedPlayer -= DoHandleFruitCollectedPlayer;
+            FruitCollector.OnFruitCollectedBot -= DoHandleFruitCollectedPlayer;
 
         }
 
@@ -41,25 +41,25 @@ namespace Environment
                 FruitData fruitData = fruitTypes[Random.Range(0, fruitTypes.Count)];
                 GameObject fruitInstance = Instantiate(fruitData.fruitObj, transform);
                 fruitInstance.SetActive(false); 
-                _fruitPool.Add(fruitInstance); 
+                fruitPool.Add(fruitInstance); 
             }
         }
 
         private void SpawnFruits()
         {
-            foreach (GameObject fruit in _fruitPool)
+            foreach (GameObject fruit in fruitPool)
             {
                 if (!fruit.activeInHierarchy)
                 {
                     Vector3 spawnPosition = GetUniqueSpawnPosition();
                     fruit.transform.position = spawnPosition;
-                    fruit.transform.localScale = new Vector3(4, 4, 4);
+                    fruit.transform.localScale = new Vector3(9,9,9);
                     fruit.SetActive(true);
                 }
             }
         }
 
-        private void DOHandleFruitCollectedPlayer(GameObject collectedFruit)
+        private void DoHandleFruitCollectedPlayer(GameObject collectedFruit)
         {
             StartCoroutine(RespawnFruitAfterDelay(collectedFruit, 10f));
         }
@@ -73,7 +73,7 @@ namespace Environment
         private void ReturnFruitToPool(GameObject fruit)
         {
             fruit.SetActive(false);
-            fruit.transform.localScale = new Vector3(4, 4, 4);
+            fruit.transform.localScale = new Vector3(9,9,9);
             Vector3 respawnPosition = GetUniqueSpawnPosition();
             fruit.transform.position = respawnPosition;
             fruit.SetActive(true);
@@ -94,8 +94,7 @@ namespace Environment
 
                 positionIsUnique = true;
 
-                // Check if this position overlaps with any active fruit
-                foreach (var fruit in _fruitPool)
+                foreach (var fruit in fruitPool)
                 {
                     if (fruit.activeInHierarchy && Vector3.Distance(newPosition, fruit.transform.position) < 0.1f)
                     {
@@ -104,7 +103,7 @@ namespace Environment
                     }
                 }
 
-            } while (!positionIsUnique); // Keep generating a new position until it's unique
+            } while (!positionIsUnique); 
 
             return newPosition;
         }

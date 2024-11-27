@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -15,13 +14,15 @@ namespace AI
         [SerializeField] private LayerMask weapon;
         [SerializeField] private BotScore botScore;
 
-        private readonly List<GameObject> _fruitPool = new();
-        private int _fruitAmount;
-        private Transform _fruitContainer;
+        private readonly List<GameObject> fruitPool = new();
+        private readonly List<DroppableFruit> droppableFruits = new();
+
+        private int fruitAmount;
+        private Transform fruitContainer;
 
         private void Start()
         {
-            _fruitContainer = new GameObject(gameObject.name + " FruitContainer").transform;
+            fruitContainer = new GameObject(gameObject.name + " FruitContainer").transform;
             InitializeFruitPool();
         }
 
@@ -30,9 +31,12 @@ namespace AI
             for (int i = 0; i < initialFruitPoolSize; i++)
             {
                 GameObject randomFruit = fruitPrefabs[Random.Range(0, fruitPrefabs.Count)];
-                GameObject fruitInstance = Instantiate(randomFruit, _fruitContainer);
+                GameObject fruitInstance = Instantiate(randomFruit, fruitContainer);
                 fruitInstance.SetActive(false);
-                _fruitPool.Add(fruitInstance);
+                fruitPool.Add(fruitInstance);
+                
+                var droppableFruit = fruitInstance.GetComponent<DroppableFruit>();
+                if (droppableFruit != null) droppableFruits.Add(droppableFruit);
             }
         }
 
@@ -46,32 +50,33 @@ namespace AI
 
         private void HandleDeath()
         {
-            _fruitAmount = Mathf.RoundToInt(botScore.CurrentScore);
+            fruitAmount = Mathf.RoundToInt(transform.localScale.x * 30);
             Vector3 deathPosition = transform.position;
             OnBotDeath?.Invoke(gameObject);
-            DropFruits(deathPosition, _fruitAmount);
+            DropFruits(deathPosition, fruitAmount);
             gameObject.SetActive(false);
         }
 
-        private void DropFruits(Vector3 botPosition, int fruitAmount)
+        private void DropFruits(Vector3 botPosition, int amount)
         {
-            for (int i = 0; i < fruitAmount; i++)
+            for (int i = 0; i < amount; i++)
             {
                 GameObject fruit = GetFruitFromPool();
                 if (fruit != null)
                 {
                     Vector3 randomDirection = Random.onUnitSphere;
-                    float radius = 1f; 
-                    fruit.transform.position = botPosition + randomDirection * radius; 
+                    fruit.transform.position = botPosition + randomDirection; 
                     fruit.SetActive(true);
-                    fruit.GetComponent<DroppableFruit>().Throw(botPosition);
+                    
+                    var droppableFruit = droppableFruits[fruitPool.IndexOf(fruit)];
+                    droppableFruit.Throw(botPosition);
                 }
             }
         }
 
         private GameObject GetFruitFromPool()
         {
-            foreach (GameObject fruit in _fruitPool)
+            foreach (GameObject fruit in fruitPool)
             {
                 if (!fruit.activeInHierarchy)
                     return fruit;
