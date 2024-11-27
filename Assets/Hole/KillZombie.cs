@@ -22,7 +22,6 @@ namespace Hole
                 OnZombieKillInts?.Invoke(ZombieValue);
                 InstantiateTextWhenCollect(ZombieValue);
                 OnZombieKill?.Invoke(Mathf.RoundToInt(1));
-                Destroy(other.gameObject);
             }
         }
         

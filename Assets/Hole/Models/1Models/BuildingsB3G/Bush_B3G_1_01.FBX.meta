@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 3cac41173e7d0824ca1b3c346c783861
+timeCreated: 1500984432
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bush_B3G_1_01
+    100004: Bush_B3G_1_01_DUMMY
+    100006: Bush_B3G_2_01_DUMMY
+    100008: Bush_B3G_Damage_1_01
+    100010: Bush_B3G_Damage_1_02
+    100012: Bush_B3G_Damage_1_03
+    100014: Bush_B3G_Damage_1_04
+    100016: Bush_B3G_Damage_1_05
+    100018: Bush_B3G_Damage_1_06
+    100020: Bush_B3G_Damage_1_07
+    100022: Bush_B3G_Damage_1_08
+    100024: Bush_B3G_Damage_1_09
+    100026: Bush_B3G_Damage_1_10
+    100028: Bush_B3G_Damage_1_11
+    400000: //RootNode
+    400002: Bush_B3G_1_01
+    400004: Bush_B3G_1_01_DUMMY
+    400006: Bush_B3G_2_01_DUMMY
+    400008: Bush_B3G_Damage_1_01
+    400010: Bush_B3G_Damage_1_02
+    400012: Bush_B3G_Damage_1_03
+    400014: Bush_B3G_Damage_1_04
+    400016: Bush_B3G_Damage_1_05
+    400018: Bush_B3G_Damage_1_06
+    400020: Bush_B3G_Damage_1_07
+    400022: Bush_B3G_Damage_1_08
+    400024: Bush_B3G_Damage_1_09
+    400026: Bush_B3G_Damage_1_10
+    400028: Bush_B3G_Damage_1_11
+    2300000: Bush_B3G_1_01
+    2300002: Bush_B3G_Damage_1_01
+    2300004: Bush_B3G_Damage_1_02
+    2300006: Bush_B3G_Damage_1_03
+    2300008: Bush_B3G_Damage_1_04
+    2300010: Bush_B3G_Damage_1_05
+    2300012: Bush_B3G_Damage_1_06
+    2300014: Bush_B3G_Damage_1_07
+    2300016: Bush_B3G_Damage_1_08
+    2300018: Bush_B3G_Damage_1_09
+    2300020: Bush_B3G_Damage_1_10
+    2300022: Bush_B3G_Damage_1_11
+    3300000: Bush_B3G_1_01
+    3300002: Bush_B3G_Damage_1_01
+    3300004: Bush_B3G_Damage_1_02
+    3300006: Bush_B3G_Damage_1_03
+    3300008: Bush_B3G_Damage_1_04
+    3300010: Bush_B3G_Damage_1_05
+    3300012: Bush_B3G_Damage_1_06
+    3300014: Bush_B3G_Damage_1_07
+    3300016: Bush_B3G_Damage_1_08
+    3300018: Bush_B3G_Damage_1_09
+    3300020: Bush_B3G_Damage_1_10
+    3300022: Bush_B3G_Damage_1_11
+    4300000: Bush_B3G_1_01
+    4300002: Bush_B3G_Damage_1_05
+    4300004: Bush_B3G_Damage_1_06
+    4300006: Bush_B3G_Damage_1_07
+    4300008: Bush_B3G_Damage_1_10
+    4300010: Bush_B3G_Damage_1_02
+    4300012: Bush_B3G_Damage_1_11
+    4300014: Bush_B3G_Damage_1_04
+    4300016: Bush_B3G_Damage_1_09
+    4300018: Bush_B3G_Damage_1_03
+    4300020: Bush_B3G_Damage_1_01
+    4300022: Bush_B3G_Damage_1_08
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

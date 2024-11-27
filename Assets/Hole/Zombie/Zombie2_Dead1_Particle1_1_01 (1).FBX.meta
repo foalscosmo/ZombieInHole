@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 90d0cd09ce831444c9bef922e04c4016
+timeCreated: 1488377713
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Zombie2_Dead_1_01
+    100004: Zombie2_Dead_1_02
+    100006: Zombie2_Dead_1_03
+    100008: Zombie2_Dead_1_04
+    100010: Zombie2_Dead_1_05
+    100012: Zombie2_Dead_1_06
+    100014: Zombie2_Dead_1_07
+    100016: Zombie2_Dead_Blud_1_001
+    100018: Zombie2_Dead_Blud_1_002
+    100020: Zombie2_Dead_Blud_1_003
+    100022: Zombie2_Dead_Blud_1_004
+    100024: Zombie2_Dead_Blud_1_005
+    100026: Zombie2_Dead_Blud_1_006
+    100028: Zombie2_Dead_Blud_1_007
+    100030: Zombie2_Dead_Blud_1_008
+    400000: //RootNode
+    400002: Zombie2_Dead_1_01
+    400004: Zombie2_Dead_1_02
+    400006: Zombie2_Dead_1_03
+    400008: Zombie2_Dead_1_04
+    400010: Zombie2_Dead_1_05
+    400012: Zombie2_Dead_1_06
+    400014: Zombie2_Dead_1_07
+    400016: Zombie2_Dead_Blud_1_001
+    400018: Zombie2_Dead_Blud_1_002
+    400020: Zombie2_Dead_Blud_1_003
+    400022: Zombie2_Dead_Blud_1_004
+    400024: Zombie2_Dead_Blud_1_005
+    400026: Zombie2_Dead_Blud_1_006
+    400028: Zombie2_Dead_Blud_1_007
+    400030: Zombie2_Dead_Blud_1_008
+    2300000: Zombie2_Dead_1_01
+    2300002: Zombie2_Dead_1_02
+    2300004: Zombie2_Dead_1_03
+    2300006: Zombie2_Dead_1_04
+    2300008: Zombie2_Dead_1_05
+    2300010: Zombie2_Dead_1_06
+    2300012: Zombie2_Dead_1_07
+    2300014: Zombie2_Dead_Blud_1_001
+    2300016: Zombie2_Dead_Blud_1_002
+    2300018: Zombie2_Dead_Blud_1_003
+    2300020: Zombie2_Dead_Blud_1_004
+    2300022: Zombie2_Dead_Blud_1_005
+    2300024: Zombie2_Dead_Blud_1_006
+    2300026: Zombie2_Dead_Blud_1_007
+    2300028: Zombie2_Dead_Blud_1_008
+    3300000: Zombie2_Dead_1_01
+    3300002: Zombie2_Dead_1_02
+    3300004: Zombie2_Dead_1_03
+    3300006: Zombie2_Dead_1_04
+    3300008: Zombie2_Dead_1_05
+    3300010: Zombie2_Dead_1_06
+    3300012: Zombie2_Dead_1_07
+    3300014: Zombie2_Dead_Blud_1_001
+    3300016: Zombie2_Dead_Blud_1_002
+    3300018: Zombie2_Dead_Blud_1_003
+    3300020: Zombie2_Dead_Blud_1_004
+    3300022: Zombie2_Dead_Blud_1_005
+    3300024: Zombie2_Dead_Blud_1_006
+    3300026: Zombie2_Dead_Blud_1_007
+    3300028: Zombie2_Dead_Blud_1_008
+    4300000: Zombie2_Dead_1_01
+    4300002: Zombie2_Dead_1_02
+    4300004: Zombie2_Dead_1_06
+    4300006: Zombie2_Dead_1_04
+    4300008: Zombie2_Dead_1_05
+    4300010: Zombie2_Dead_1_07
+    4300012: Zombie2_Dead_1_03
+    4300014: Zombie2_Dead_Blud_1_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 17
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

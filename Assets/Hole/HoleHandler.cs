@@ -23,7 +23,7 @@ namespace Hole
         private void ScalePlayer(float scaleAmount)
         {
             Vector3 current = transform.transform.localScale;
-            var decreasedAmount = scaleAmount / 80;
+            var decreasedAmount = scaleAmount / 20f;
             Vector3 newScale = current + new Vector3(decreasedAmount,0, decreasedAmount);
             transform.transform.DOScale(newScale, 0.5f);
             movementWithTransform.MoveSpeed += scaleAmount / 20f;

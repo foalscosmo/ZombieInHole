@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: 7fb1e0fbc36ecee4ca54085404198dcf
+timeCreated: 1495714540
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CATRigHub004
+    100002: CATRigHub005
+    100004: CATRigHub006
+    100006: CATRigLArm1
+    100008: CATRigLArm2
+    100010: CATRigLArmCollarbone
+    100012: CATRigLArmDigit11
+    100014: CATRigLArmDigit12
+    100016: CATRigLArmDigit21
+    100018: CATRigLArmDigit22
+    100020: CATRigLArmDigit31
+    100022: CATRigLArmDigit32
+    100024: CATRigLArmPalm
+    100026: CATRigLLeg1
+    100028: CATRigLLeg2
+    100030: CATRigLLegAnkle
+    100032: CATRigLLegPlatform
+    100034: CATRigRArm1
+    100036: CATRigRArm2
+    100038: CATRigRArmCollarbone
+    100040: CATRigRArmDigit11
+    100042: CATRigRArmDigit12
+    100044: CATRigRArmDigit21
+    100046: CATRigRArmDigit22
+    100048: CATRigRArmDigit31
+    100050: CATRigRArmDigit32
+    100052: CATRigRArmPalm
+    100054: CATRigRLeg1
+    100056: CATRigRLeg2
+    100058: CATRigRLegAnkle
+    100060: CATRigRLegPlatform
+    100062: CATRigSpine1
+    100064: CATRigSpine1 1
+    100066: CATRigSpine2
+    100068: CATRigSpine2 1
+    100070: CATRigSpine3
+    100072: Character002
+    100074: //RootNode
+    100076: Zombie-Hat_1_02
+    100078: Zombie-Hat_1_03
+    100080: Zombie-Hat_1_032
+    100082: Zombie-Hat_1_033
+    100084: Zombie-Hat_1_034
+    100086: Zombie-Hat_1_035
+    100088: Zombie-Hat_1_036
+    100090: Zombie-Hat_1_037
+    100092: Zombie-Hat_1_038
+    100094: Zombie-Hat_1_039
+    100096: Zombie-Hat_1_040
+    100098: Zombie-Hat_1_041
+    100100: Zombie-Hat_1_14
+    100102: Zombie-Hat_1_15
+    100104: Zombie-Hat_1_16
+    100106: Zombie-Hat_1_17
+    100108: Zombie-Hat_1_18
+    100110: Zombie-Hat_1_19
+    100112: Zombie-Hat_1_20
+    100114: Zombie-Hat_1_21
+    100116: Zombie-Hat_1_22
+    100118: Zombie-Hat_1_23
+    100120: Zombie-Hat_1_24
+    100122: Zombie-Hat_1_25
+    100124: Zombie-Hat_1_26
+    100126: Zombie-Hat_1_27
+    100128: Zombie-Hat_1_28
+    100130: Zombie-Hat_1_29
+    100132: Zombie-Hat_1_30
+    100134: Zombie-Hat_1_31
+    400000: CATRigHub004
+    400002: CATRigHub005
+    400004: CATRigHub006
+    400006: CATRigLArm1
+    400008: CATRigLArm2
+    400010: CATRigLArmCollarbone
+    400012: CATRigLArmDigit11
+    400014: CATRigLArmDigit12
+    400016: CATRigLArmDigit21
+    400018: CATRigLArmDigit22
+    400020: CATRigLArmDigit31
+    400022: CATRigLArmDigit32
+    400024: CATRigLArmPalm
+    400026: CATRigLLeg1
+    400028: CATRigLLeg2
+    400030: CATRigLLegAnkle
+    400032: CATRigLLegPlatform
+    400034: CATRigRArm1
+    400036: CATRigRArm2
+    400038: CATRigRArmCollarbone
+    400040: CATRigRArmDigit11
+    400042: CATRigRArmDigit12
+    400044: CATRigRArmDigit21
+    400046: CATRigRArmDigit22
+    400048: CATRigRArmDigit31
+    400050: CATRigRArmDigit32
+    400052: CATRigRArmPalm
+    400054: CATRigRLeg1
+    400056: CATRigRLeg2
+    400058: CATRigRLegAnkle
+    400060: CATRigRLegPlatform
+    400062: CATRigSpine1
+    400064: CATRigSpine1 1
+    400066: CATRigSpine2
+    400068: CATRigSpine2 1
+    400070: CATRigSpine3
+    400072: Character002
+    400074: //RootNode
+    400076: Zombie-Hat_1_02
+    400078: Zombie-Hat_1_03
+    400080: Zombie-Hat_1_032
+    400082: Zombie-Hat_1_033
+    400084: Zombie-Hat_1_034
+    400086: Zombie-Hat_1_035
+    400088: Zombie-Hat_1_036
+    400090: Zombie-Hat_1_037
+    400092: Zombie-Hat_1_038
+    400094: Zombie-Hat_1_039
+    400096: Zombie-Hat_1_040
+    400098: Zombie-Hat_1_041
+    400100: Zombie-Hat_1_14
+    400102: Zombie-Hat_1_15
+    400104: Zombie-Hat_1_16
+    400106: Zombie-Hat_1_17
+    400108: Zombie-Hat_1_18
+    400110: Zombie-Hat_1_19
+    400112: Zombie-Hat_1_20
+    400114: Zombie-Hat_1_21
+    400116: Zombie-Hat_1_22
+    400118: Zombie-Hat_1_23
+    400120: Zombie-Hat_1_24
+    400122: Zombie-Hat_1_25
+    400124: Zombie-Hat_1_26
+    400126: Zombie-Hat_1_27
+    400128: Zombie-Hat_1_28
+    400130: Zombie-Hat_1_29
+    400132: Zombie-Hat_1_30
+    400134: Zombie-Hat_1_31
+    2300000: Zombie-Hat_1_02
+    2300002: Zombie-Hat_1_03
+    2300004: Zombie-Hat_1_032
+    2300006: Zombie-Hat_1_033
+    2300008: Zombie-Hat_1_034
+    2300010: Zombie-Hat_1_035
+    2300012: Zombie-Hat_1_036
+    2300014: Zombie-Hat_1_037
+    2300016: Zombie-Hat_1_038
+    2300018: Zombie-Hat_1_039
+    2300020: Zombie-Hat_1_040
+    2300022: Zombie-Hat_1_041
+    2300024: Zombie-Hat_1_14
+    2300026: Zombie-Hat_1_15
+    2300028: Zombie-Hat_1_16
+    2300030: Zombie-Hat_1_17
+    2300032: Zombie-Hat_1_18
+    2300034: Zombie-Hat_1_19
+    2300036: Zombie-Hat_1_20
+    2300038: Zombie-Hat_1_21
+    2300040: Zombie-Hat_1_22
+    2300042: Zombie-Hat_1_23
+    2300044: Zombie-Hat_1_24
+    2300046: Zombie-Hat_1_25
+    2300048: Zombie-Hat_1_26
+    2300050: Zombie-Hat_1_27
+    2300052: Zombie-Hat_1_28
+    2300054: Zombie-Hat_1_29
+    2300056: Zombie-Hat_1_30
+    2300058: Zombie-Hat_1_31
+    3300000: Zombie-Hat_1_02
+    3300002: Zombie-Hat_1_03
+    3300004: Zombie-Hat_1_032
+    3300006: Zombie-Hat_1_033
+    3300008: Zombie-Hat_1_034
+    3300010: Zombie-Hat_1_035
+    3300012: Zombie-Hat_1_036
+    3300014: Zombie-Hat_1_037
+    3300016: Zombie-Hat_1_038
+    3300018: Zombie-Hat_1_039
+    3300020: Zombie-Hat_1_040
+    3300022: Zombie-Hat_1_041
+    3300024: Zombie-Hat_1_14
+    3300026: Zombie-Hat_1_15
+    3300028: Zombie-Hat_1_16
+    3300030: Zombie-Hat_1_17
+    3300032: Zombie-Hat_1_18
+    3300034: Zombie-Hat_1_19
+    3300036: Zombie-Hat_1_20
+    3300038: Zombie-Hat_1_21
+    3300040: Zombie-Hat_1_22
+    3300042: Zombie-Hat_1_23
+    3300044: Zombie-Hat_1_24
+    3300046: Zombie-Hat_1_25
+    3300048: Zombie-Hat_1_26
+    3300050: Zombie-Hat_1_27
+    3300052: Zombie-Hat_1_28
+    3300054: Zombie-Hat_1_29
+    3300056: Zombie-Hat_1_30
+    3300058: Zombie-Hat_1_31
+    4300000: Zombie-Hat_1_27
+    4300002: Zombie-Hat_1_26
+    4300004: Zombie-Hat_1_25
+    4300006: Zombie-Hat_1_30
+    4300008: Zombie-Hat_1_29
+    4300010: Zombie-Hat_1_28
+    4300012: Zombie-Hat_1_23
+    4300014: Zombie-Hat_1_22
+    4300016: Zombie-Hat_1_21
+    4300018: Zombie-Hat_1_20
+    4300020: Zombie-Hat_1_19
+    4300022: Zombie-Hat_1_18
+    4300024: Zombie-Hat_1_17
+    4300026: Zombie-Hat_1_16
+    4300028: Zombie-Hat_1_14
+    4300030: Zombie-Hat_1_15
+    4300032: Zombie-Hat_1_041
+    4300034: Zombie-Hat_1_040
+    4300036: Zombie-Hat_1_039
+    4300038: Zombie-Hat_1_038
+    4300040: Zombie-Hat_1_037
+    4300042: Zombie-Hat_1_036
+    4300044: Zombie-Hat_1_035
+    4300046: Zombie-Hat_1_034
+    4300048: Zombie-Hat_1_032
+    4300050: Zombie-Hat_1_033
+    4300052: Zombie-Hat_1_31
+    4300054: Zombie-Hat_1_24
+    4300056: Zombie-Hat_1_03
+    4300058: Zombie-Hat_1_02
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATRigHub004
+        weight: 1
+      - path: CATRigHub004/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub004/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub004/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub004/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/Zombie-Hat_1_27
+        weight: 1
+      - path: CATRigHub004/CATRigLLeg1/CATRigLLeg2/Zombie-Hat_1_26
+        weight: 1
+      - path: CATRigHub004/CATRigLLeg1/Zombie-Hat_1_25
+        weight: 1
+      - path: CATRigHub004/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub004/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub004/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHub004/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/Zombie-Hat_1_30
+        weight: 1
+      - path: CATRigHub004/CATRigRLeg1/CATRigRLeg2/Zombie-Hat_1_29
+        weight: 1
+      - path: CATRigHub004/CATRigRLeg1/Zombie-Hat_1_28
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/CATRigLArmDigit12/Zombie-Hat_1_23
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit11/Zombie-Hat_1_22
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/CATRigLArmDigit22/Zombie-Hat_1_21
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit21/Zombie-Hat_1_20
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/CATRigLArmDigit32/Zombie-Hat_1_19
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/CATRigLArmDigit31/Zombie-Hat_1_18
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/Zombie-Hat_1_17
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/Zombie-Hat_1_16
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/Zombie-Hat_1_14
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigLArmCollarbone/CATRigLArm1/Zombie-Hat_1_15
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/CATRigRArmDigit12/Zombie-Hat_1_041
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit11/Zombie-Hat_1_040
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/CATRigRArmDigit22/Zombie-Hat_1_039
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit21/Zombie-Hat_1_038
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/CATRigRArmDigit32/Zombie-Hat_1_037
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/CATRigRArmDigit31/Zombie-Hat_1_036
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/Zombie-Hat_1_035
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/Zombie-Hat_1_034
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/Zombie-Hat_1_032
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigRArmCollarbone/CATRigRArm1/Zombie-Hat_1_033
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigSpine1
+          1
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigSpine1
+          1/CATRigSpine2 1
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigSpine1
+          1/CATRigSpine2 1/CATRigHub006
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigSpine1
+          1/CATRigSpine2 1/CATRigHub006/Zombie-Hat_1_24
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/CATRigSpine1
+          1/CATRigSpine2 1/CATRigHub006/Zombie-Hat_1_31
+        weight: 1
+      - path: CATRigHub004/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub005/Zombie-Hat_1_03
+        weight: 1
+      - path: CATRigHub004/Zombie-Hat_1_02
+        weight: 1
+      - path: CATRigLLegPlatform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Character002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: e3aea4c84b1dfa94885f69a8150f9d54
+timeCreated: 1495716755
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CATRigHub007
+    100002: CATRigHub008
+    100004: CATRigHub008Bone001
+    100006: CATRigHub008Bone002
+    100008: CATRigHub009
+    100010: CATRigLArm1
+    100012: CATRigLArm2
+    100014: CATRigLArmCollarbone
+    100016: CATRigLArmPalm
+    100018: CATRigLLeg1
+    100020: CATRigLLeg2
+    100022: CATRigLLegAnkle
+    100024: CATRigLLegPlatform
+    100026: CATRigRArm1
+    100028: CATRigRArm2
+    100030: CATRigRArmCollarbone
+    100032: CATRigRArmPalm
+    100034: CATRigRLeg1
+    100036: CATRigRLeg2
+    100038: CATRigRLegAnkle
+    100040: CATRigRLegPlatform
+    100042: CATRigSpine
+    100044: CATRigSpine1
+    100046: CATRigSpine2
+    100048: CATRigSpine3
+    100050: Character003
+    100052: //RootNode
+    100054: Transformer_1_01
+    100056: Transformer_1_02
+    100058: Transformer_1_03
+    100060: Transformer_1_04
+    100062: Transformer_1_05
+    100064: Transformer_1_06
+    100066: Transformer_1_07
+    100068: Transformer_1_08
+    100070: Transformer_1_09
+    100072: Transformer_1_10
+    100074: Transformer_1_11
+    100076: Transformer_1_12
+    100078: Transformer_1_13
+    100080: Transformer_1_14
+    100082: Transformer_1_15
+    100084: Transformer_1_16
+    100086: Transformer_1_17
+    100088: Transformer_1_18
+    100090: Transformer_1_19
+    100092: Transformer_1_20
+    100094: Transformer_1_21
+    100096: Transformer_1_22
+    400000: CATRigHub007
+    400002: CATRigHub008
+    400004: CATRigHub008Bone001
+    400006: CATRigHub008Bone002
+    400008: CATRigHub009
+    400010: CATRigLArm1
+    400012: CATRigLArm2
+    400014: CATRigLArmCollarbone
+    400016: CATRigLArmPalm
+    400018: CATRigLLeg1
+    400020: CATRigLLeg2
+    400022: CATRigLLegAnkle
+    400024: CATRigLLegPlatform
+    400026: CATRigRArm1
+    400028: CATRigRArm2
+    400030: CATRigRArmCollarbone
+    400032: CATRigRArmPalm
+    400034: CATRigRLeg1
+    400036: CATRigRLeg2
+    400038: CATRigRLegAnkle
+    400040: CATRigRLegPlatform
+    400042: CATRigSpine
+    400044: CATRigSpine1
+    400046: CATRigSpine2
+    400048: CATRigSpine3
+    400050: Character003
+    400052: //RootNode
+    400054: Transformer_1_01
+    400056: Transformer_1_02
+    400058: Transformer_1_03
+    400060: Transformer_1_04
+    400062: Transformer_1_05
+    400064: Transformer_1_06
+    400066: Transformer_1_07
+    400068: Transformer_1_08
+    400070: Transformer_1_09
+    400072: Transformer_1_10
+    400074: Transformer_1_11
+    400076: Transformer_1_12
+    400078: Transformer_1_13
+    400080: Transformer_1_14
+    400082: Transformer_1_15
+    400084: Transformer_1_16
+    400086: Transformer_1_17
+    400088: Transformer_1_18
+    400090: Transformer_1_19
+    400092: Transformer_1_20
+    400094: Transformer_1_21
+    400096: Transformer_1_22
+    2300000: Transformer_1_01
+    2300002: Transformer_1_02
+    2300004: Transformer_1_03
+    2300006: Transformer_1_04
+    2300008: Transformer_1_05
+    2300010: Transformer_1_06
+    2300012: Transformer_1_07
+    2300014: Transformer_1_08
+    2300016: Transformer_1_09
+    2300018: Transformer_1_10
+    2300020: Transformer_1_11
+    2300022: Transformer_1_12
+    2300024: Transformer_1_13
+    2300026: Transformer_1_15
+    2300028: Transformer_1_16
+    2300030: Transformer_1_18
+    2300032: Transformer_1_19
+    2300034: Transformer_1_20
+    2300036: Transformer_1_21
+    2300038: Transformer_1_22
+    3300000: Transformer_1_01
+    3300002: Transformer_1_02
+    3300004: Transformer_1_03
+    3300006: Transformer_1_04
+    3300008: Transformer_1_05
+    3300010: Transformer_1_06
+    3300012: Transformer_1_07
+    3300014: Transformer_1_08
+    3300016: Transformer_1_09
+    3300018: Transformer_1_10
+    3300020: Transformer_1_11
+    3300022: Transformer_1_12
+    3300024: Transformer_1_13
+    3300026: Transformer_1_15
+    3300028: Transformer_1_16
+    3300030: Transformer_1_18
+    3300032: Transformer_1_19
+    3300034: Transformer_1_20
+    3300036: Transformer_1_21
+    3300038: Transformer_1_22
+    4300000: Transformer_1_14
+    4300002: Transformer_1_17
+    4300004: Transformer_1_18
+    4300006: Transformer_1_20
+    4300008: Transformer_1_06
+    4300010: Transformer_1_19
+    4300012: Transformer_1_07
+    4300014: Transformer_1_16
+    4300016: Transformer_1_15
+    4300018: Transformer_1_13
+    4300020: Transformer_1_22
+    4300022: Transformer_1_21
+    4300024: Transformer_1_04
+    4300026: Transformer_1_05
+    4300028: Transformer_1_12
+    4300030: Transformer_1_11
+    4300032: Transformer_1_09
+    4300034: Transformer_1_10
+    4300036: Transformer_1_08
+    4300038: Transformer_1_03
+    4300040: Transformer_1_02
+    4300042: Transformer_1_01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Transformer_1_14
+    13700002: Transformer_1_17
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATRigHub007
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/Transformer_1_06
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/Transformer_1_07
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/Transformer_1_18
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/Transformer_1_19
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle/Transformer_1_20
+        weight: 1
+      - path: CATRigHub007/CATRigLLeg1/Transformer_1_16
+        weight: 1
+      - path: CATRigHub007/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub007/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub007/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHub007/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle/Transformer_1_15
+        weight: 1
+      - path: CATRigHub007/CATRigRLeg1/Transformer_1_13
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigHub008Bone001
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigHub008Bone002
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm/Transformer_1_22
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/Transformer_1_21
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone/CATRigLArm1/Transformer_1_04
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigLArmCollarbone/CATRigLArm1/Transformer_1_05
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm/Transformer_1_12
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/Transformer_1_11
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone/CATRigRArm1/Transformer_1_09
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigRArmCollarbone/CATRigRArm1/Transformer_1_10
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigSpine
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigSpine/CATRigHub009
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/CATRigSpine/CATRigHub009/Transformer_1_08
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigHub008/Transformer_1_03
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/CATRigSpine2/Transformer_1_02
+        weight: 1
+      - path: CATRigHub007/CATRigSpine1/Transformer_1_01
+        weight: 1
+      - path: CATRigLLegPlatform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Character003
+        weight: 1
+      - path: Transformer_1_14
+        weight: 1
+      - path: Transformer_1_17
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

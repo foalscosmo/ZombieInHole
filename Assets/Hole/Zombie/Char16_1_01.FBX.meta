@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 7b95684d46074e94ba7688a202665eb7
+timeCreated: 1491820176
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Marama
+    100004: MaramaHead
+    100006: MaramaLAnkle
+    100008: MaramaLCalf
+    100010: MaramaLCollarbone
+    100012: MaramaLFingers1
+    100014: MaramaLFingers2
+    100016: MaramaLForeArm2
+    100018: MaramaLForeArm2 1
+    100020: MaramaLIKTarget
+    100022: MaramaLIndex1
+    100024: MaramaLIndex2
+    100026: MaramaLPalm
+    100028: MaramaLPlatform
+    100030: MaramaLThigh
+    100032: MaramaLThumb1
+    100034: MaramaLThumb2
+    100036: MaramaLToe
+    100038: MaramaLUpperArm
+    100040: MaramaNeck
+    100042: MaramaPelvis
+    100044: MaramaRAnkle
+    100046: MaramaRCalf
+    100048: MaramaRCollarbone
+    100050: MaramaRFingers1
+    100052: MaramaRFingers2
+    100054: MaramaRForeArm2
+    100056: MaramaRForeArm2 1
+    100058: MaramaRibcage
+    100060: MaramaRIKTarget
+    100062: MaramaRIndex1
+    100064: MaramaRIndex2
+    100066: MaramaRPalm
+    100068: MaramaRPlatform
+    100070: MaramaRThigh
+    100072: MaramaRThumb1
+    100074: MaramaRThumb2
+    100076: MaramaRToe
+    100078: MaramaRUpperArm
+    100080: MaramaSpine1
+    100082: MaramaSpine2
+    100084: MaramaSpine3
+    400000: //RootNode
+    400002: Marama
+    400004: MaramaHead
+    400006: MaramaLAnkle
+    400008: MaramaLCalf
+    400010: MaramaLCollarbone
+    400012: MaramaLFingers1
+    400014: MaramaLFingers2
+    400016: MaramaLForeArm2
+    400018: MaramaLForeArm2 1
+    400020: MaramaLIKTarget
+    400022: MaramaLIndex1
+    400024: MaramaLIndex2
+    400026: MaramaLPalm
+    400028: MaramaLPlatform
+    400030: MaramaLThigh
+    400032: MaramaLThumb1
+    400034: MaramaLThumb2
+    400036: MaramaLToe
+    400038: MaramaLUpperArm
+    400040: MaramaNeck
+    400042: MaramaPelvis
+    400044: MaramaRAnkle
+    400046: MaramaRCalf
+    400048: MaramaRCollarbone
+    400050: MaramaRFingers1
+    400052: MaramaRFingers2
+    400054: MaramaRForeArm2
+    400056: MaramaRForeArm2 1
+    400058: MaramaRibcage
+    400060: MaramaRIKTarget
+    400062: MaramaRIndex1
+    400064: MaramaRIndex2
+    400066: MaramaRPalm
+    400068: MaramaRPlatform
+    400070: MaramaRThigh
+    400072: MaramaRThumb1
+    400074: MaramaRThumb2
+    400076: MaramaRToe
+    400078: MaramaRUpperArm
+    400080: MaramaSpine1
+    400082: MaramaSpine2
+    400084: MaramaSpine3
+    2300000: MaramaHead
+    2300002: MaramaLAnkle
+    2300004: MaramaLCalf
+    2300006: MaramaLCollarbone
+    2300008: MaramaLFingers1
+    2300010: MaramaLFingers2
+    2300012: MaramaLForeArm2
+    2300014: MaramaLForeArm2 1
+    2300016: MaramaLIndex1
+    2300018: MaramaLIndex2
+    2300020: MaramaLPalm
+    2300022: MaramaLThigh
+    2300024: MaramaLThumb1
+    2300026: MaramaLThumb2
+    2300028: MaramaLToe
+    2300030: MaramaLUpperArm
+    2300032: MaramaNeck
+    2300034: MaramaPelvis
+    2300036: MaramaRAnkle
+    2300038: MaramaRCalf
+    2300040: MaramaRCollarbone
+    2300042: MaramaRFingers1
+    2300044: MaramaRFingers2
+    2300046: MaramaRForeArm2
+    2300048: MaramaRForeArm2 1
+    2300050: MaramaRibcage
+    2300052: MaramaRIndex1
+    2300054: MaramaRIndex2
+    2300056: MaramaRPalm
+    2300058: MaramaRThigh
+    2300060: MaramaRThumb1
+    2300062: MaramaRThumb2
+    2300064: MaramaRToe
+    2300066: MaramaRUpperArm
+    2300068: MaramaSpine1
+    2300070: MaramaSpine2
+    2300072: MaramaSpine3
+    3300000: MaramaHead
+    3300002: MaramaLAnkle
+    3300004: MaramaLCalf
+    3300006: MaramaLCollarbone
+    3300008: MaramaLFingers1
+    3300010: MaramaLFingers2
+    3300012: MaramaLForeArm2
+    3300014: MaramaLForeArm2 1
+    3300016: MaramaLIndex1
+    3300018: MaramaLIndex2
+    3300020: MaramaLPalm
+    3300022: MaramaLThigh
+    3300024: MaramaLThumb1
+    3300026: MaramaLThumb2
+    3300028: MaramaLToe
+    3300030: MaramaLUpperArm
+    3300032: MaramaNeck
+    3300034: MaramaPelvis
+    3300036: MaramaRAnkle
+    3300038: MaramaRCalf
+    3300040: MaramaRCollarbone
+    3300042: MaramaRFingers1
+    3300044: MaramaRFingers2
+    3300046: MaramaRForeArm2
+    3300048: MaramaRForeArm2 1
+    3300050: MaramaRibcage
+    3300052: MaramaRIndex1
+    3300054: MaramaRIndex2
+    3300056: MaramaRPalm
+    3300058: MaramaRThigh
+    3300060: MaramaRThumb1
+    3300062: MaramaRThumb2
+    3300064: MaramaRToe
+    3300066: MaramaRUpperArm
+    3300068: MaramaSpine1
+    3300070: MaramaSpine2
+    3300072: MaramaSpine3
+    4300000: MaramaPelvis
+    4300002: MaramaSpine1
+    4300004: MaramaSpine2
+    4300006: MaramaSpine3
+    4300008: MaramaRibcage
+    4300010: MaramaNeck
+    4300012: MaramaHead
+    4300014: MaramaLCollarbone
+    4300016: MaramaLUpperArm
+    4300018: MaramaLForeArm2
+    4300020: MaramaLForeArm2
+    4300022: MaramaLPalm
+    4300024: MaramaLThumb1
+    4300026: MaramaLThumb2
+    4300028: MaramaLIndex1
+    4300030: MaramaLIndex2
+    4300032: MaramaLFingers1
+    4300034: MaramaLFingers2
+    4300036: MaramaRCollarbone
+    4300038: MaramaRUpperArm
+    4300040: MaramaRForeArm2
+    4300042: MaramaRForeArm2
+    4300044: MaramaRPalm
+    4300046: MaramaRThumb1
+    4300048: MaramaRThumb2
+    4300050: MaramaRIndex1
+    4300052: MaramaRIndex2
+    4300054: MaramaRFingers1
+    4300056: MaramaRFingers2
+    4300058: MaramaLThigh
+    4300060: MaramaLCalf
+    4300062: MaramaLAnkle
+    4300064: MaramaLToe
+    4300066: MaramaRThigh
+    4300068: MaramaRCalf
+    4300070: MaramaRAnkle
+    4300072: MaramaRToe
+    7400000: characters_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: characters_01
+      takeName: characters_01
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marama
+        weight: 1
+      - path: MaramaLIKTarget
+        weight: 1
+      - path: MaramaLPlatform
+        weight: 1
+      - path: MaramaPelvis
+        weight: 1
+      - path: MaramaPelvis/MaramaLThigh
+        weight: 1
+      - path: MaramaPelvis/MaramaLThigh/MaramaLCalf
+        weight: 1
+      - path: MaramaPelvis/MaramaLThigh/MaramaLCalf/MaramaLAnkle
+        weight: 1
+      - path: MaramaPelvis/MaramaLThigh/MaramaLCalf/MaramaLAnkle/MaramaLToe
+        weight: 1
+      - path: MaramaPelvis/MaramaRThigh
+        weight: 1
+      - path: MaramaPelvis/MaramaRThigh/MaramaRCalf
+        weight: 1
+      - path: MaramaPelvis/MaramaRThigh/MaramaRCalf/MaramaRAnkle
+        weight: 1
+      - path: MaramaPelvis/MaramaRThigh/MaramaRCalf/MaramaRAnkle/MaramaRToe
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1/MaramaLPalm
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1/MaramaLPalm/MaramaLFingers1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1/MaramaLPalm/MaramaLFingers1/MaramaLFingers2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1/MaramaLPalm/MaramaLIndex1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1/MaramaLPalm/MaramaLIndex1/MaramaLIndex2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1/MaramaLPalm/MaramaLThumb1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaLCollarbone/MaramaLUpperArm/MaramaLForeArm2/MaramaLForeArm2
+          1/MaramaLPalm/MaramaLThumb1/MaramaLThumb2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaNeck
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaNeck/MaramaHead
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1/MaramaRPalm
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1/MaramaRPalm/MaramaRFingers1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1/MaramaRPalm/MaramaRFingers1/MaramaRFingers2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1/MaramaRPalm/MaramaRIndex1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1/MaramaRPalm/MaramaRIndex1/MaramaRIndex2
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1/MaramaRPalm/MaramaRThumb1
+        weight: 1
+      - path: MaramaPelvis/MaramaSpine1/MaramaSpine2/MaramaSpine3/MaramaRibcage/MaramaRCollarbone/MaramaRUpperArm/MaramaRForeArm2/MaramaRForeArm2
+          1/MaramaRPalm/MaramaRThumb1/MaramaRThumb2
+        weight: 1
+      - path: MaramaRIKTarget
+        weight: 1
+      - path: MaramaRPlatform
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.031
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

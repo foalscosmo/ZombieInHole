@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 3b7e41ea3bdfd2041abf7fc49386bb45
+timeCreated: 1492163831
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Marama
+    100004: MaramaHead
+    100006: MaramaLAnkle
+    100008: MaramaLCalf
+    100010: MaramaLCollarbone
+    100012: MaramaLFingers1
+    100014: MaramaLFingers2
+    100016: MaramaLForeArm2
+    100018: MaramaLForeArm2 1
+    100020: MaramaLIKTarget
+    100022: MaramaLIndex1
+    100024: MaramaLIndex2
+    100026: MaramaLPalm
+    100028: MaramaLPlatform
+    100030: MaramaLThigh
+    100032: MaramaLThumb1
+    100034: MaramaLThumb2
+    100036: MaramaLToe
+    100038: MaramaLUpperArm
+    100040: MaramaNeck
+    100042: MaramaPelvis
+    100044: MaramaRAnkle
+    100046: MaramaRCalf
+    100048: MaramaRCollarbone
+    100050: MaramaRFingers1
+    100052: MaramaRFingers2
+    100054: MaramaRForeArm2
+    100056: MaramaRForeArm2 1
+    100058: MaramaRibcage
+    100060: MaramaRIKTarget
+    100062: MaramaRIndex1
+    100064: MaramaRIndex2
+    100066: MaramaRPalm
+    100068: MaramaRPlatform
+    100070: MaramaRThigh
+    100072: MaramaRThumb1
+    100074: MaramaRThumb2
+    100076: MaramaRToe
+    100078: MaramaRUpperArm
+    100080: MaramaSpine1
+    100082: MaramaSpine2
+    100084: MaramaSpine3
+    400000: //RootNode
+    400002: Marama
+    400004: MaramaHead
+    400006: MaramaLAnkle
+    400008: MaramaLCalf
+    400010: MaramaLCollarbone
+    400012: MaramaLFingers1
+    400014: MaramaLFingers2
+    400016: MaramaLForeArm2
+    400018: MaramaLForeArm2 1
+    400020: MaramaLIKTarget
+    400022: MaramaLIndex1
+    400024: MaramaLIndex2
+    400026: MaramaLPalm
+    400028: MaramaLPlatform
+    400030: MaramaLThigh
+    400032: MaramaLThumb1
+    400034: MaramaLThumb2
+    400036: MaramaLToe
+    400038: MaramaLUpperArm
+    400040: MaramaNeck
+    400042: MaramaPelvis
+    400044: MaramaRAnkle
+    400046: MaramaRCalf
+    400048: MaramaRCollarbone
+    400050: MaramaRFingers1
+    400052: MaramaRFingers2
+    400054: MaramaRForeArm2
+    400056: MaramaRForeArm2 1
+    400058: MaramaRibcage
+    400060: MaramaRIKTarget
+    400062: MaramaRIndex1
+    400064: MaramaRIndex2
+    400066: MaramaRPalm
+    400068: MaramaRPlatform
+    400070: MaramaRThigh
+    400072: MaramaRThumb1
+    400074: MaramaRThumb2
+    400076: MaramaRToe
+    400078: MaramaRUpperArm
+    400080: MaramaSpine1
+    400082: MaramaSpine2
+    400084: MaramaSpine3
+    7400000: characters_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,6 +7,7 @@ TagManager:
   - Snake
   - Nose
   - Body
+  - Movable
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - BotBody
   - MediumCollectables
   - BigCollectables
-  - 
+  - SoundArea
   - Bounds
   - MegaCollectables
   - FallingSphereLayer

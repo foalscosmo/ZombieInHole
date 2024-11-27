@@ -1,7 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using AI;
 using Scriptable_Obj;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Hole
 {
@@ -21,7 +25,10 @@ namespace Hole
         {
             InitializePool();
             SpawnBotsOnStart();
+            foreach (var botDeath in botPool.Select(bot => bot.GetComponent<ZombieInHole>())
+                         .Where(botDeath => botDeath != null)) botDeath.OnZombieKilled += HandleBotCollected;
         }
+        
 
         private void InitializePool()
         {
@@ -34,7 +41,6 @@ namespace Hole
                 botInstance.transform.localScale = new Vector3(randomSize, randomSize, randomSize);
                 botInstance.SetActive(false);
                 botPool.Add(botInstance);
-                
             }
         }
 
@@ -57,7 +63,7 @@ namespace Hole
             {
                 randomPosition = new Vector3(
                     Random.Range(spawnAreaMin.x, spawnAreaMax.x),
-                    1f,
+                    10f,
                     Random.Range(spawnAreaMin.y, spawnAreaMax.y)
                 );
             } 

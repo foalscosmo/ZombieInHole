@@ -11,6 +11,11 @@ namespace AI
         [SerializeField] private float rotationSpeed = 15f;
         [SerializeField] private float collisionCooldown = 1f; // Cooldown after a collision
 
+        public float MoveSpeed
+        {
+            get => moveSpeed;
+            set => moveSpeed = value;
+        }
         private Vector3 _movementDirection;
         [SerializeField] private Rigidbody rb;
         [SerializeField] private LayerMask boundLayer;

@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: becde8c7f4e998b478c738b11933475a
+timeCreated: 1491903503
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ape
+    100002: ApeHead
+    100004: ApeLLeg1
+    100006: ApeLLeg1 1
+    100008: ApeLLeg2
+    100010: ApeLLeg2 1
+    100012: ApeLLegCollarbone
+    100014: ApeLLegDigit01
+    100016: ApeLLegDigit02
+    100018: ApeLLegDigit11
+    100020: ApeLLegDigit12
+    100022: ApeLLegDigit21
+    100024: ApeLLegDigit22
+    100026: ApeLLegPalm
+    100028: ApeLLegPalm 1
+    100030: ApeLLegPlatform
+    100032: ApeLLegPlatform 1
+    100034: ApeNeck
+    100036: ApePelvis
+    100038: ApeRibcage
+    100040: ApeRLeg1
+    100042: ApeRLeg1 1
+    100044: ApeRLeg2
+    100046: ApeRLeg2 1
+    100048: ApeRLegCollarbone
+    100050: ApeRLegDigit01
+    100052: ApeRLegDigit02
+    100054: ApeRLegDigit11
+    100056: ApeRLegDigit12
+    100058: ApeRLegDigit21
+    100060: ApeRLegDigit22
+    100062: ApeRLegPalm
+    100064: ApeRLegPalm 1
+    100066: ApeRLegPlatform
+    100068: ApeRLegPlatform 1
+    100070: ApeSpine1
+    100072: ApeSpine2
+    100074: ApeSpine3
+    100076: //RootNode
+    400000: Ape
+    400002: ApeHead
+    400004: ApeLLeg1
+    400006: ApeLLeg1 1
+    400008: ApeLLeg2
+    400010: ApeLLeg2 1
+    400012: ApeLLegCollarbone
+    400014: ApeLLegDigit01
+    400016: ApeLLegDigit02
+    400018: ApeLLegDigit11
+    400020: ApeLLegDigit12
+    400022: ApeLLegDigit21
+    400024: ApeLLegDigit22
+    400026: ApeLLegPalm
+    400028: ApeLLegPalm 1
+    400030: ApeLLegPlatform
+    400032: ApeLLegPlatform 1
+    400034: ApeNeck
+    400036: ApePelvis
+    400038: ApeRibcage
+    400040: ApeRLeg1
+    400042: ApeRLeg1 1
+    400044: ApeRLeg2
+    400046: ApeRLeg2 1
+    400048: ApeRLegCollarbone
+    400050: ApeRLegDigit01
+    400052: ApeRLegDigit02
+    400054: ApeRLegDigit11
+    400056: ApeRLegDigit12
+    400058: ApeRLegDigit21
+    400060: ApeRLegDigit22
+    400062: ApeRLegPalm
+    400064: ApeRLegPalm 1
+    400066: ApeRLegPlatform
+    400068: ApeRLegPlatform 1
+    400070: ApeSpine1
+    400072: ApeSpine2
+    400074: ApeSpine3
+    400076: //RootNode
+    2300000: ApeHead
+    2300002: ApeLLeg1
+    2300004: ApeLLeg1 1
+    2300006: ApeLLeg2
+    2300008: ApeLLeg2 1
+    2300010: ApeLLegCollarbone
+    2300012: ApeLLegDigit01
+    2300014: ApeLLegDigit02
+    2300016: ApeLLegDigit11
+    2300018: ApeLLegDigit12
+    2300020: ApeLLegDigit21
+    2300022: ApeLLegDigit22
+    2300024: ApeLLegPalm
+    2300026: ApeLLegPalm 1
+    2300028: ApeNeck
+    2300030: ApePelvis
+    2300032: ApeRibcage
+    2300034: ApeRLeg1
+    2300036: ApeRLeg1 1
+    2300038: ApeRLeg2
+    2300040: ApeRLeg2 1
+    2300042: ApeRLegCollarbone
+    2300044: ApeRLegDigit01
+    2300046: ApeRLegDigit02
+    2300048: ApeRLegDigit11
+    2300050: ApeRLegDigit12
+    2300052: ApeRLegDigit21
+    2300054: ApeRLegDigit22
+    2300056: ApeRLegPalm
+    2300058: ApeRLegPalm 1
+    2300060: ApeSpine1
+    2300062: ApeSpine2
+    2300064: ApeSpine3
+    3300000: ApeHead
+    3300002: ApeLLeg1
+    3300004: ApeLLeg1 1
+    3300006: ApeLLeg2
+    3300008: ApeLLeg2 1
+    3300010: ApeLLegCollarbone
+    3300012: ApeLLegDigit01
+    3300014: ApeLLegDigit02
+    3300016: ApeLLegDigit11
+    3300018: ApeLLegDigit12
+    3300020: ApeLLegDigit21
+    3300022: ApeLLegDigit22
+    3300024: ApeLLegPalm
+    3300026: ApeLLegPalm 1
+    3300028: ApeNeck
+    3300030: ApePelvis
+    3300032: ApeRibcage
+    3300034: ApeRLeg1
+    3300036: ApeRLeg1 1
+    3300038: ApeRLeg2
+    3300040: ApeRLeg2 1
+    3300042: ApeRLegCollarbone
+    3300044: ApeRLegDigit01
+    3300046: ApeRLegDigit02
+    3300048: ApeRLegDigit11
+    3300050: ApeRLegDigit12
+    3300052: ApeRLegDigit21
+    3300054: ApeRLegDigit22
+    3300056: ApeRLegPalm
+    3300058: ApeRLegPalm 1
+    3300060: ApeSpine1
+    3300062: ApeSpine2
+    3300064: ApeSpine3
+    4300000: ApePelvis
+    4300002: ApeLLeg1
+    4300004: ApeLLeg2
+    4300006: ApeLLegPalm
+    4300008: ApeRLeg1
+    4300010: ApeRLeg2
+    4300012: ApeRLegPalm
+    4300014: ApeSpine1
+    4300016: ApeSpine2
+    4300018: ApeSpine3
+    4300020: ApeRibcage
+    4300022: ApeLLegCollarbone
+    4300024: ApeLLeg1
+    4300026: ApeLLeg2
+    4300028: ApeLLegPalm
+    4300030: ApeLLegDigit01
+    4300032: ApeLLegDigit02
+    4300034: ApeLLegDigit11
+    4300036: ApeLLegDigit12
+    4300038: ApeLLegDigit21
+    4300040: ApeLLegDigit22
+    4300042: ApeRLegCollarbone
+    4300044: ApeRLeg1
+    4300046: ApeRLeg2
+    4300048: ApeRLegPalm
+    4300050: ApeRLegDigit01
+    4300052: ApeRLegDigit02
+    4300054: ApeRLegDigit11
+    4300056: ApeRLegDigit12
+    4300058: ApeRLegDigit21
+    4300060: ApeRLegDigit22
+    4300062: ApeNeck
+    4300064: ApeHead
+    7400000: characters_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: characters_01
+      takeName: characters_01
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ape
+        weight: 1
+      - path: ApeLLegPlatform
+        weight: 1
+      - path: ApeLLegPlatform 1
+        weight: 1
+      - path: ApePelvis
+        weight: 1
+      - path: ApePelvis/ApeLLeg1
+        weight: 1
+      - path: ApePelvis/ApeLLeg1/ApeLLeg2
+        weight: 1
+      - path: ApePelvis/ApeLLeg1/ApeLLeg2/ApeLLegPalm
+        weight: 1
+      - path: ApePelvis/ApeRLeg1
+        weight: 1
+      - path: ApePelvis/ApeRLeg1/ApeRLeg2
+        weight: 1
+      - path: ApePelvis/ApeRLeg1/ApeRLeg2/ApeRLegPalm
+        weight: 1
+      - path: ApePelvis/ApeSpine1
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1/ApeLLegPalm 1
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1/ApeLLegPalm 1/ApeLLegDigit01
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1/ApeLLegPalm 1/ApeLLegDigit01/ApeLLegDigit02
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1/ApeLLegPalm 1/ApeLLegDigit11
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1/ApeLLegPalm 1/ApeLLegDigit11/ApeLLegDigit12
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1/ApeLLegPalm 1/ApeLLegDigit21
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeLLegCollarbone/ApeLLeg1
+          1/ApeLLeg2 1/ApeLLegPalm 1/ApeLLegDigit21/ApeLLegDigit22
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeNeck
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeNeck/ApeHead
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1/ApeRLegPalm 1
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1/ApeRLegPalm 1/ApeRLegDigit01
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1/ApeRLegPalm 1/ApeRLegDigit01/ApeRLegDigit02
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1/ApeRLegPalm 1/ApeRLegDigit11
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1/ApeRLegPalm 1/ApeRLegDigit11/ApeRLegDigit12
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1/ApeRLegPalm 1/ApeRLegDigit21
+        weight: 1
+      - path: ApePelvis/ApeSpine1/ApeSpine2/ApeSpine3/ApeRibcage/ApeRLegCollarbone/ApeRLeg1
+          1/ApeRLeg2 1/ApeRLegPalm 1/ApeRLegDigit21/ApeRLegDigit22
+        weight: 1
+      - path: ApeRLegPlatform
+        weight: 1
+      - path: ApeRLegPlatform 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.04
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

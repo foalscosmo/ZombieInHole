@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 0fd21c888375c48489f86e42a3464195
+timeCreated: 1495714539
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CATRigHub001
+    100002: CATRigHub002
+    100004: CATRigHub003
+    100006: CATRigLArm1
+    100008: CATRigLArm2
+    100010: CATRigLArmCollarbone
+    100012: CATRigLArmPalm
+    100014: CATRigLLeg1
+    100016: CATRigLLeg2
+    100018: CATRigLLegAnkle
+    100020: CATRigLLegPlatform
+    100022: CATRigRArm1
+    100024: CATRigRArm2
+    100026: CATRigRArmCollarbone
+    100028: CATRigRArmPalm
+    100030: CATRigRLeg1
+    100032: CATRigRLeg2
+    100034: CATRigRLegAnkle
+    100036: CATRigRLegPlatform
+    100038: CATRigSpine1
+    100040: CATRigSpine1 1
+    100042: CATRigSpine2
+    100044: CATRigSpine2 1
+    100046: Character001
+    100048: //RootNode
+    100050: Zombie-Kamikaze_1_01
+    100052: Zombie-Kamikaze_1_02
+    100054: Zombie-Kamikaze_1_03
+    100056: Zombie-Kamikaze_1_04
+    100058: Zombie-Kamikaze_1_05
+    100060: Zombie-Kamikaze_1_06
+    100062: Zombie-Kamikaze_1_07
+    100064: Zombie-Kamikaze_1_08
+    100066: Zombie-Kamikaze_1_09
+    100068: Zombie-Kamikaze_1_10
+    100070: Zombie-Kamikaze_1_11
+    100072: Zombie-Kamikaze_1_12
+    100074: Zombie-Kamikaze_1_13
+    100076: Zombie-Kamikaze_1_14
+    100078: Zombie-Kamikaze_1_15
+    100080: Zombie-Kamikaze_1_16
+    100082: Zombie-Kamikaze_1_17
+    100084: Zombie-Kamikaze_1_18
+    100086: Zombie-Kamikaze_1_19
+    100088: Zombie-Kamikaze_1_20
+    100090: Zombie-Kamikaze_1_21
+    100092: Zombie-Kamikaze_1_22
+    100094: Zombie-Kamikaze_1_23
+    100096: Zombie-Kamikaze_1_24
+    100098: Zombie-Kamikaze_1_25
+    100100: Zombie-Kamikaze_1_26
+    100102: Zombie-Kamikaze_1_27
+    100104: Zombie-Kamikaze_DUMMY-Base_1_01
+    100106: Zombie-Kamikaze_DUMMY-Dinamit_1_01
+    400000: CATRigHub001
+    400002: CATRigHub002
+    400004: CATRigHub003
+    400006: CATRigLArm1
+    400008: CATRigLArm2
+    400010: CATRigLArmCollarbone
+    400012: CATRigLArmPalm
+    400014: CATRigLLeg1
+    400016: CATRigLLeg2
+    400018: CATRigLLegAnkle
+    400020: CATRigLLegPlatform
+    400022: CATRigRArm1
+    400024: CATRigRArm2
+    400026: CATRigRArmCollarbone
+    400028: CATRigRArmPalm
+    400030: CATRigRLeg1
+    400032: CATRigRLeg2
+    400034: CATRigRLegAnkle
+    400036: CATRigRLegPlatform
+    400038: CATRigSpine1
+    400040: CATRigSpine1 1
+    400042: CATRigSpine2
+    400044: CATRigSpine2 1
+    400046: Character001
+    400048: //RootNode
+    400050: Zombie-Kamikaze_1_01
+    400052: Zombie-Kamikaze_1_02
+    400054: Zombie-Kamikaze_1_03
+    400056: Zombie-Kamikaze_1_04
+    400058: Zombie-Kamikaze_1_05
+    400060: Zombie-Kamikaze_1_06
+    400062: Zombie-Kamikaze_1_07
+    400064: Zombie-Kamikaze_1_08
+    400066: Zombie-Kamikaze_1_09
+    400068: Zombie-Kamikaze_1_10
+    400070: Zombie-Kamikaze_1_11
+    400072: Zombie-Kamikaze_1_12
+    400074: Zombie-Kamikaze_1_13
+    400076: Zombie-Kamikaze_1_14
+    400078: Zombie-Kamikaze_1_15
+    400080: Zombie-Kamikaze_1_16
+    400082: Zombie-Kamikaze_1_17
+    400084: Zombie-Kamikaze_1_18
+    400086: Zombie-Kamikaze_1_19
+    400088: Zombie-Kamikaze_1_20
+    400090: Zombie-Kamikaze_1_21
+    400092: Zombie-Kamikaze_1_22
+    400094: Zombie-Kamikaze_1_23
+    400096: Zombie-Kamikaze_1_24
+    400098: Zombie-Kamikaze_1_25
+    400100: Zombie-Kamikaze_1_26
+    400102: Zombie-Kamikaze_1_27
+    400104: Zombie-Kamikaze_DUMMY-Base_1_01
+    400106: Zombie-Kamikaze_DUMMY-Dinamit_1_01
+    2300000: Zombie-Kamikaze_1_01
+    2300002: Zombie-Kamikaze_1_02
+    2300004: Zombie-Kamikaze_1_03
+    2300006: Zombie-Kamikaze_1_04
+    2300008: Zombie-Kamikaze_1_05
+    2300010: Zombie-Kamikaze_1_06
+    2300012: Zombie-Kamikaze_1_07
+    2300014: Zombie-Kamikaze_1_08
+    2300016: Zombie-Kamikaze_1_09
+    2300018: Zombie-Kamikaze_1_10
+    2300020: Zombie-Kamikaze_1_11
+    2300022: Zombie-Kamikaze_1_12
+    2300024: Zombie-Kamikaze_1_13
+    2300026: Zombie-Kamikaze_1_14
+    2300028: Zombie-Kamikaze_1_15
+    2300030: Zombie-Kamikaze_1_16
+    2300032: Zombie-Kamikaze_1_17
+    2300034: Zombie-Kamikaze_1_18
+    2300036: Zombie-Kamikaze_1_19
+    2300038: Zombie-Kamikaze_1_20
+    2300040: Zombie-Kamikaze_1_21
+    2300042: Zombie-Kamikaze_1_22
+    2300044: Zombie-Kamikaze_1_23
+    2300046: Zombie-Kamikaze_1_24
+    2300048: Zombie-Kamikaze_1_25
+    2300050: Zombie-Kamikaze_1_26
+    2300052: Zombie-Kamikaze_1_27
+    3300000: Zombie-Kamikaze_1_01
+    3300002: Zombie-Kamikaze_1_02
+    3300004: Zombie-Kamikaze_1_03
+    3300006: Zombie-Kamikaze_1_04
+    3300008: Zombie-Kamikaze_1_05
+    3300010: Zombie-Kamikaze_1_06
+    3300012: Zombie-Kamikaze_1_07
+    3300014: Zombie-Kamikaze_1_08
+    3300016: Zombie-Kamikaze_1_09
+    3300018: Zombie-Kamikaze_1_10
+    3300020: Zombie-Kamikaze_1_11
+    3300022: Zombie-Kamikaze_1_12
+    3300024: Zombie-Kamikaze_1_13
+    3300026: Zombie-Kamikaze_1_14
+    3300028: Zombie-Kamikaze_1_15
+    3300030: Zombie-Kamikaze_1_16
+    3300032: Zombie-Kamikaze_1_17
+    3300034: Zombie-Kamikaze_1_18
+    3300036: Zombie-Kamikaze_1_19
+    3300038: Zombie-Kamikaze_1_20
+    3300040: Zombie-Kamikaze_1_21
+    3300042: Zombie-Kamikaze_1_22
+    3300044: Zombie-Kamikaze_1_23
+    3300046: Zombie-Kamikaze_1_24
+    3300048: Zombie-Kamikaze_1_25
+    3300050: Zombie-Kamikaze_1_26
+    3300052: Zombie-Kamikaze_1_27
+    4300000: Zombie-Kamikaze_1_18
+    4300002: Zombie-Kamikaze_1_06
+    4300004: Zombie-Kamikaze_1_07
+    4300006: Zombie-Kamikaze_1_19
+    4300008: Zombie-Kamikaze_1_05
+    4300010: Zombie-Kamikaze_1_04
+    4300012: Zombie-Kamikaze_1_12
+    4300014: Zombie-Kamikaze_1_11
+    4300016: Zombie-Kamikaze_1_10
+    4300018: Zombie-Kamikaze_1_08
+    4300020: Zombie-Kamikaze_1_14
+    4300022: Zombie-Kamikaze_1_15
+    4300024: Zombie-Kamikaze_1_26
+    4300026: Zombie-Kamikaze_1_25
+    4300028: Zombie-Kamikaze_1_24
+    4300030: Zombie-Kamikaze_1_23
+    4300032: Zombie-Kamikaze_1_22
+    4300034: Zombie-Kamikaze_1_21
+    4300036: Zombie-Kamikaze_1_20
+    4300038: Zombie-Kamikaze_1_27
+    4300040: Zombie-Kamikaze_1_16
+    4300042: Zombie-Kamikaze_1_09
+    4300044: Zombie-Kamikaze_1_17
+    4300046: Zombie-Kamikaze_1_03
+    4300048: Zombie-Kamikaze_1_13
+    4300050: Zombie-Kamikaze_1_02
+    4300052: Zombie-Kamikaze_1_01
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

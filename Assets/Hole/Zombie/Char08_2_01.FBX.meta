@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 334a47d4c984bde448bec17db670c2df
+timeCreated: 1491820176
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Clown
+    100004: ClownHead
+    100006: ClownLArm1
+    100008: ClownLArm2
+    100010: ClownLArmCollarbone
+    100012: ClownLArmDigit01
+    100014: ClownLArmDigit11
+    100016: ClownLArmDigit12
+    100018: ClownLArmDigit21
+    100020: ClownLArmDigit22
+    100022: ClownLArmDigit31
+    100024: ClownLArmDigit32
+    100026: ClownLArmPalm
+    100028: ClownLLeg1
+    100030: ClownLLeg2
+    100032: ClownLLegAnkle
+    100034: ClownLLegDigit01
+    100036: ClownLLegPlatform
+    100038: ClownNeck
+    100040: ClownPelvis
+    100042: ClownRArm1
+    100044: ClownRArm2
+    100046: ClownRArmCollarbone
+    100048: ClownRArmDigit01
+    100050: ClownRArmDigit11
+    100052: ClownRArmDigit12
+    100054: ClownRArmDigit21
+    100056: ClownRArmDigit22
+    100058: ClownRArmDigit31
+    100060: ClownRArmDigit32
+    100062: ClownRArmPalm
+    100064: ClownRibcage
+    100066: ClownRLeg1
+    100068: ClownRLeg2
+    100070: ClownRLegAnkle
+    100072: ClownRLegDigit01
+    100074: ClownRLegPlatform
+    100076: ClownSpine1
+    100078: ClownSpine2
+    400000: //RootNode
+    400002: Clown
+    400004: ClownHead
+    400006: ClownLArm1
+    400008: ClownLArm2
+    400010: ClownLArmCollarbone
+    400012: ClownLArmDigit01
+    400014: ClownLArmDigit11
+    400016: ClownLArmDigit12
+    400018: ClownLArmDigit21
+    400020: ClownLArmDigit22
+    400022: ClownLArmDigit31
+    400024: ClownLArmDigit32
+    400026: ClownLArmPalm
+    400028: ClownLLeg1
+    400030: ClownLLeg2
+    400032: ClownLLegAnkle
+    400034: ClownLLegDigit01
+    400036: ClownLLegPlatform
+    400038: ClownNeck
+    400040: ClownPelvis
+    400042: ClownRArm1
+    400044: ClownRArm2
+    400046: ClownRArmCollarbone
+    400048: ClownRArmDigit01
+    400050: ClownRArmDigit11
+    400052: ClownRArmDigit12
+    400054: ClownRArmDigit21
+    400056: ClownRArmDigit22
+    400058: ClownRArmDigit31
+    400060: ClownRArmDigit32
+    400062: ClownRArmPalm
+    400064: ClownRibcage
+    400066: ClownRLeg1
+    400068: ClownRLeg2
+    400070: ClownRLegAnkle
+    400072: ClownRLegDigit01
+    400074: ClownRLegPlatform
+    400076: ClownSpine1
+    400078: ClownSpine2
+    2300000: ClownHead
+    2300002: ClownLArm1
+    2300004: ClownLArm2
+    2300006: ClownLArmCollarbone
+    2300008: ClownLArmDigit01
+    2300010: ClownLArmDigit11
+    2300012: ClownLArmDigit12
+    2300014: ClownLArmDigit21
+    2300016: ClownLArmDigit22
+    2300018: ClownLArmDigit31
+    2300020: ClownLArmDigit32
+    2300022: ClownLArmPalm
+    2300024: ClownLLeg1
+    2300026: ClownLLeg2
+    2300028: ClownLLegAnkle
+    2300030: ClownLLegDigit01
+    2300032: ClownNeck
+    2300034: ClownPelvis
+    2300036: ClownRArm1
+    2300038: ClownRArm2
+    2300040: ClownRArmCollarbone
+    2300042: ClownRArmDigit01
+    2300044: ClownRArmDigit11
+    2300046: ClownRArmDigit12
+    2300048: ClownRArmDigit21
+    2300050: ClownRArmDigit22
+    2300052: ClownRArmDigit31
+    2300054: ClownRArmDigit32
+    2300056: ClownRArmPalm
+    2300058: ClownRibcage
+    2300060: ClownRLeg1
+    2300062: ClownRLeg2
+    2300064: ClownRLegAnkle
+    2300066: ClownRLegDigit01
+    2300068: ClownSpine1
+    2300070: ClownSpine2
+    3300000: ClownHead
+    3300002: ClownLArm1
+    3300004: ClownLArm2
+    3300006: ClownLArmCollarbone
+    3300008: ClownLArmDigit01
+    3300010: ClownLArmDigit11
+    3300012: ClownLArmDigit12
+    3300014: ClownLArmDigit21
+    3300016: ClownLArmDigit22
+    3300018: ClownLArmDigit31
+    3300020: ClownLArmDigit32
+    3300022: ClownLArmPalm
+    3300024: ClownLLeg1
+    3300026: ClownLLeg2
+    3300028: ClownLLegAnkle
+    3300030: ClownLLegDigit01
+    3300032: ClownNeck
+    3300034: ClownPelvis
+    3300036: ClownRArm1
+    3300038: ClownRArm2
+    3300040: ClownRArmCollarbone
+    3300042: ClownRArmDigit01
+    3300044: ClownRArmDigit11
+    3300046: ClownRArmDigit12
+    3300048: ClownRArmDigit21
+    3300050: ClownRArmDigit22
+    3300052: ClownRArmDigit31
+    3300054: ClownRArmDigit32
+    3300056: ClownRArmPalm
+    3300058: ClownRibcage
+    3300060: ClownRLeg1
+    3300062: ClownRLeg2
+    3300064: ClownRLegAnkle
+    3300066: ClownRLegDigit01
+    3300068: ClownSpine1
+    3300070: ClownSpine2
+    4300000: ClownPelvis
+    4300002: ClownSpine1
+    4300004: ClownSpine2
+    4300006: ClownRibcage
+    4300008: ClownNeck
+    4300010: ClownHead
+    4300012: ClownLArmCollarbone
+    4300014: ClownLArm1
+    4300016: ClownLArm2
+    4300018: ClownLArmPalm
+    4300020: ClownLArmDigit01
+    4300022: ClownLArmDigit11
+    4300024: ClownLArmDigit12
+    4300026: ClownLArmDigit21
+    4300028: ClownLArmDigit22
+    4300030: ClownLArmDigit31
+    4300032: ClownLArmDigit32
+    4300034: ClownRArmCollarbone
+    4300036: ClownRArm1
+    4300038: ClownRArm2
+    4300040: ClownRArmPalm
+    4300042: ClownRArmDigit01
+    4300044: ClownRArmDigit11
+    4300046: ClownRArmDigit12
+    4300048: ClownRArmDigit21
+    4300050: ClownRArmDigit22
+    4300052: ClownRArmDigit31
+    4300054: ClownRArmDigit32
+    4300056: ClownLLeg1
+    4300058: ClownLLeg2
+    4300060: ClownLLegAnkle
+    4300062: ClownLLegDigit01
+    4300064: ClownRLeg1
+    4300066: ClownRLeg2
+    4300068: ClownRLegAnkle
+    4300070: ClownRLegDigit01
+    7400000: characters_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: characters_01
+      takeName: characters_01
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Clown
+        weight: 1
+      - path: ClownLLegPlatform
+        weight: 1
+      - path: ClownPelvis
+        weight: 1
+      - path: ClownPelvis/ClownLLeg1
+        weight: 1
+      - path: ClownPelvis/ClownLLeg1/ClownLLeg2
+        weight: 1
+      - path: ClownPelvis/ClownLLeg1/ClownLLeg2/ClownLLegAnkle
+        weight: 1
+      - path: ClownPelvis/ClownLLeg1/ClownLLeg2/ClownLLegAnkle/ClownLLegDigit01
+        weight: 1
+      - path: ClownPelvis/ClownRLeg1
+        weight: 1
+      - path: ClownPelvis/ClownRLeg1/ClownRLeg2
+        weight: 1
+      - path: ClownPelvis/ClownRLeg1/ClownRLeg2/ClownRLegAnkle
+        weight: 1
+      - path: ClownPelvis/ClownRLeg1/ClownRLeg2/ClownRLegAnkle/ClownRLegDigit01
+        weight: 1
+      - path: ClownPelvis/ClownSpine1
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm/ClownLArmDigit01
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm/ClownLArmDigit11
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm/ClownLArmDigit11/ClownLArmDigit12
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm/ClownLArmDigit21
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm/ClownLArmDigit21/ClownLArmDigit22
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm/ClownLArmDigit31
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownLArmCollarbone/ClownLArm1/ClownLArm2/ClownLArmPalm/ClownLArmDigit31/ClownLArmDigit32
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownNeck
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownNeck/ClownHead
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm/ClownRArmDigit01
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm/ClownRArmDigit11
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm/ClownRArmDigit11/ClownRArmDigit12
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm/ClownRArmDigit21
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm/ClownRArmDigit21/ClownRArmDigit22
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm/ClownRArmDigit31
+        weight: 1
+      - path: ClownPelvis/ClownSpine1/ClownSpine2/ClownRibcage/ClownRArmCollarbone/ClownRArm1/ClownRArm2/ClownRArmPalm/ClownRArmDigit31/ClownRArmDigit32
+        weight: 1
+      - path: ClownRLegPlatform
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.06
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
