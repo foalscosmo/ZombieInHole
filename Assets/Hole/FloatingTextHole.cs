@@ -4,21 +4,6 @@ namespace Hole
 {
     public class FloatingTextHole : MonoBehaviour
     {
-        // [SerializeField] private float destroyTime;
-        // [SerializeField] private Vector3 spawnY;
-        // private readonly Vector3 _randomizeIntensity = new(0.5f, 0, 0);
-        //
-        // private void Start()
-        // {
-        //     Destroy(this.gameObject,destroyTime);
-        //     var localPosition = transform.localPosition;
-        //     localPosition += spawnY;
-        //     localPosition += new Vector3(Random.Range(-_randomizeIntensity.x, _randomizeIntensity.x),
-        //         _randomizeIntensity.y,
-        //         Random.Range(-_randomizeIntensity.z, _randomizeIntensity.z));
-        //     transform.localPosition = localPosition;
-        // }
-        
         [SerializeField] private float destroyTime = 2f; // Default value
         [SerializeField] private Vector3 spawnY = new Vector3(0, 1, 0);
         private readonly Vector3 _randomizeIntensity = new Vector3(0.5f, 0, 0);

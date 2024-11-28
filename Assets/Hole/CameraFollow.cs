@@ -1,4 +1,5 @@
 using System.Collections;
+using AI;
 using UnityEngine;
 
 namespace Hole
@@ -11,6 +12,15 @@ namespace Hole
         [SerializeField] private float zoomSpeed;
         [SerializeField] private float minZoomDistance;
         [SerializeField] private float maxZoomDistance;
+        [SerializeField] private float cameraAdjustValue;
+        [SerializeField] private DebugPanel debugPanel;
+        [SerializeField] private float cameraZoomOutValue;
+
+        public float CameraZoomOutValue
+        {
+            get => cameraZoomOutValue;
+            set => cameraZoomOutValue = value;
+        }
         
         private float _currentDistance;
         private float _initialDistance; 
@@ -30,9 +40,10 @@ namespace Hole
             Vector3 targetOffset = _initialOffsetDirection * _currentDistance;
             Vector3 targetPosition = playerTransform.position + targetOffset;
 
-            transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
+            transform.position =
+                Vector3.Lerp(new Vector3(transform.position.x + cameraAdjustValue, transform.position.y, transform.position.z),
+                    targetPosition, followSpeed * Time.deltaTime);
         }
-
         
         public void UpdateTargetDistance(float zoomAmount)
         {
@@ -42,7 +53,9 @@ namespace Hole
         private IEnumerator FollowCameraZoomTimer(float zoomAmount)
         {
             yield return new WaitForSecondsRealtime(0.3f);
-            _currentDistance += (zoomAmount * zoomSpeed) / 10;
+            cameraAdjustValue += zoomAmount/100f;
+            _currentDistance += (zoomAmount * zoomSpeed) / cameraZoomOutValue;
+            debugPanel.ZoomOutValueSlider.value = cameraZoomOutValue;
             _currentDistance = Mathf.Clamp(_currentDistance, minZoomDistance, maxZoomDistance); 
         }
 

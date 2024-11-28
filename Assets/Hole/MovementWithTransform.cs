@@ -12,7 +12,6 @@ namespace Hole
 
         private Finger movementFinger;
         private Vector2 movementAmount;
-        private Vector3 lastDirection;
 
         public float MoveSpeed
         {
@@ -55,7 +54,6 @@ namespace Hole
 
                 joystick.Knob.anchoredPosition = knobPosition;
                 movementAmount = knobPosition / maxMovement;
-                lastDirection = new Vector3(movementAmount.x, 0, movementAmount.y).normalized;
             }
         }
 
@@ -66,7 +64,7 @@ namespace Hole
                 movementFinger = null;
                 joystick.Knob.anchoredPosition = Vector2.zero;
                 joystick.gameObject.SetActive(false);
-                movementAmount = Vector2.zero;
+                movementAmount = Vector2.zero; // Stop movement
             }
         }
 
@@ -97,13 +95,11 @@ namespace Hole
 
         private void FixedUpdate()
         {
-            var targetDirection = movementAmount.magnitude > 0.1f 
-                ? new Vector3(movementAmount.x, 0, movementAmount.y).normalized 
-                : lastDirection;
+            // Move only if there's active touch input
+            if (movementFinger == null || movementAmount.magnitude <= 0.1f)
+                return;
 
-            if (!(targetDirection.magnitude > 0.1f) ) return;
-
-            // Move the transform directly
+            var targetDirection = new Vector3(movementAmount.x, 0, movementAmount.y).normalized;
             var transform1 = transform;
             var movePosition = transform1.position + targetDirection * (moveSpeed * Time.fixedDeltaTime);
             transform1.position = movePosition;

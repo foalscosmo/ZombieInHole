@@ -5,9 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Snake
-  - Nose
-  - Body
-  - Movable
+  - Zombie
+  - Building
   layers:
   - Default
   - TransparentFX

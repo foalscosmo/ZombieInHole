@@ -45,14 +45,14 @@ namespace Managers
             remainingTime = Mathf.Max(remainingTime, 0);
             int minutes = Mathf.FloorToInt(remainingTime / 60f);
             int seconds = Mathf.FloorToInt(remainingTime % 60f);
-            startTimeText.text = $"Stage {currentStage+1} Time : {minutes:00}:{seconds:00}";
+            startTimeText.text = $"Time: {minutes:00}:{seconds:00}";
 
             startTimeText.color = remainingTime <= 5f ? Color.red : Color.blue;
         }
 
         private void ShowAd()
         {
-            Debug.Log("Showing ad...");
+            
         }
 
         public void OnAdFinished()

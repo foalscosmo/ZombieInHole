@@ -21,7 +21,7 @@ namespace AI
         [SerializeField] private LayerMask boundLayer;
         private bool canChangeDirection = true; // Direction change cooldown flag
 
-        private void Start()
+        private void Awake()
         {
             SetRandomDirection();
             StartCoroutine(ChangeDirectionRoutine());

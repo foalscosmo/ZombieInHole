@@ -3546,15 +3546,15 @@ GameObject:
   m_Component:
   - component: {fileID: 6083471418364390307}
   - component: {fileID: 952745240341202381}
-  - component: {fileID: 7238916563160183744}
   - component: {fileID: 7819807167091636557}
   - component: {fileID: -7000620825128565810}
   - component: {fileID: 429400359623854405}
   - component: {fileID: -5423335563993755418}
-  - component: {fileID: 5703467179098328477}
+  - component: {fileID: -7533932730527654526}
+  - component: {fileID: 2872865572201336952}
   m_Layer: 18
   m_Name: Zombie2
-  m_TagString: Untagged
+  m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3599,29 +3599,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!136 &7238916563160183744
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8777806182261310864}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.8776684
-  m_Height: 4.6491423
-  m_Direction: 1
-  m_Center: {x: 0, y: 2.3, z: 0.37766838}
 --- !u!54 &7819807167091636557
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3663,7 +3640,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7819807167091636557}
   botMovement: {fileID: 429400359623854405}
-  audioSource: {fileID: 4983912477233814488, guid: d8c2612e3e9bf4649b2c8553f8a3f16c, type: 3}
+  audioSource: {fileID: -7533932730527654526}
+  audioClip: {fileID: 8300000, guid: 59962d25bca2c459499bf2a4316ca1da, type: 3}
 --- !u!114 &429400359623854405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3701,7 +3679,7 @@ MonoBehaviour:
   needArrowIndicator: 1
   needDistanceText: 0
   indicator: {fileID: 0}
---- !u!82 &5703467179098328477
+--- !u!82 &-7533932730527654526
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3721,7 +3699,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 6.8359547
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -3797,6 +3775,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!136 &2872865572201336952
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8777806182261310864}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.0493822
+  m_Height: 4.423576
+  m_Direction: 1
+  m_Center: {x: 0.023719788, y: 2.1757553, z: 0.13123703}
 --- !u!1 &8856596919294208114
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,13 +25,13 @@ namespace Hole
 
         private void Awake()
         {
-            killScore.text = "Zombie Swallowed : " + currentKills;
+            killScore.text = "Swallowed : " + currentKills;
             scoreText.text = "Zombie Score : " + currentScore;
         }
 
         private void SetScoreOnKill(float value)
         {
-            killScore.text = $"Zombie Swallowed : {currentKills += value}";
+            killScore.text = $"Swallowed : {currentKills += value}";
             scoreText.text = $"Zombie Score : {currentScore += killZombie.ZombieValue}";
         }
     }

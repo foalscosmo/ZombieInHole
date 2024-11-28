@@ -9,10 +9,16 @@ namespace Hole
     {
         [SerializeField] private LayerMask botBody;
         [SerializeField] private GameObject floatingText;
+        
         public int ZombieValue { get; private set; }
 
         public event Action<float> OnZombieKill;
-        public event Action<int> OnZombieKillInts; 
+        public event Action<int> OnZombieKillInts;
+
+        private void Awake()
+        {
+            InstantiateTextWhenCollect(0);
+        }
 
         private void OnTriggerExit(Collider other)
         {
