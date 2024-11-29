@@ -11,12 +11,12 @@ namespace Hole
         
         private void OnEnable()
         {
-            killZombie.OnZombieKillInts += SetBotKillSound;
+            killZombie.OnZombieKill += SetBotKillSound;
         }
 
         private void OnDisable()
         {
-            killZombie.OnZombieKillInts -= SetBotKillSound;
+            killZombie.OnZombieKill -= SetBotKillSound;
         }
         
         private void SetBotKillSound(int valueForEvent)

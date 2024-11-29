@@ -2293,8 +2293,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 9179407162391632075}
   botMovement: {fileID: 1297161274762785133}
-  audioSource: {fileID: -7533932730527654526, guid: 3f74945ef983444a1b726658e1193707, type: 3}
-  audioClip: {fileID: 8300000, guid: 59962d25bca2c459499bf2a4316ca1da, type: 3}
 --- !u!114 &1297161274762785133
 MonoBehaviour:
   m_ObjectHideFlags: 0

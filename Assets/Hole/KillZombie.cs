@@ -12,9 +12,7 @@ namespace Hole
         
         public int ZombieValue { get; private set; }
 
-        public event Action<float> OnZombieKill;
-        public event Action<int> OnZombieKillInts;
-
+        public event Action<int> OnZombieKill;
         private void Awake()
         {
             InstantiateTextWhenCollect(0);
@@ -25,9 +23,8 @@ namespace Hole
             if (((1 << other.gameObject.layer) & botBody) != 0)
             {
                 ZombieValue = Mathf.RoundToInt(other.transform.localScale.x);
-                OnZombieKillInts?.Invoke(ZombieValue);
+                OnZombieKill?.Invoke(ZombieValue);
                 InstantiateTextWhenCollect(ZombieValue);
-                OnZombieKill?.Invoke(Mathf.RoundToInt(1));
             }
         }
         

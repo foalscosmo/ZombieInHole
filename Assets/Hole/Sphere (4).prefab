@@ -150,8 +150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 4831112697794822412}
   botMovement: {fileID: 0}
-  audioSource: {fileID: 3392780909404586364}
-  audioClip: {fileID: 0}
 --- !u!82 &3392780909404586364
 AudioSource:
   m_ObjectHideFlags: 0

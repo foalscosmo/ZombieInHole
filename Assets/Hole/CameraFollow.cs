@@ -10,7 +10,6 @@ namespace Hole
         [SerializeField] private Vector3 offset;
         [SerializeField] private float followSpeed;
         [SerializeField] private float zoomSpeed;
-        [SerializeField] private float minZoomDistance;
         [SerializeField] private float maxZoomDistance;
         [SerializeField] private float cameraAdjustValue;
         [SerializeField] private DebugPanel debugPanel;
@@ -35,8 +34,6 @@ namespace Hole
 
         private void FixedUpdate()
         {
-            if (playerTransform == null) return;
-
             Vector3 targetOffset = _initialOffsetDirection * _currentDistance;
             Vector3 targetPosition = playerTransform.position + targetOffset;
 
@@ -53,10 +50,10 @@ namespace Hole
         private IEnumerator FollowCameraZoomTimer(float zoomAmount)
         {
             yield return new WaitForSecondsRealtime(0.3f);
-            cameraAdjustValue += zoomAmount/100f;
+            cameraAdjustValue += zoomAmount/10f;
             _currentDistance += (zoomAmount * zoomSpeed) / cameraZoomOutValue;
             debugPanel.ZoomOutValueSlider.value = cameraZoomOutValue;
-            _currentDistance = Mathf.Clamp(_currentDistance, minZoomDistance, maxZoomDistance); 
+            _currentDistance = Mathf.Clamp(_currentDistance, 5, maxZoomDistance); 
         }
 
         public void ResetCameraDistance()

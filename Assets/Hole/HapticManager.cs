@@ -18,7 +18,7 @@ namespace Hole
             zombieCollect.OnZombieKill -= HandleHapticsWhenCollect;
         }
         
-        private void HandleHapticsWhenCollect(float index)
+        private void HandleHapticsWhenCollect(int index)
         {
             if (Time.time - lastHapticTime >= hapticCooldown)
             {
@@ -26,7 +26,7 @@ namespace Hole
 
                 switch (index)
                 {
-                    case 1f:
+                    case 1:
                         HapticFeedback.MediumFeedback();
                         break;
                 }

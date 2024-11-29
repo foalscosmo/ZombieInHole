@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 
 namespace Hole
@@ -5,16 +6,16 @@ namespace Hole
     public class CameraManager : MonoBehaviour
     {
         [SerializeField] private CameraFollow cameraFollow;
-        [SerializeField] private KillZombie playerScore;
+        [SerializeField] private HoleScore holeScore;
         
         private void OnEnable()
         {
-            playerScore.OnZombieKill += cameraFollow.UpdateTargetDistance;
+            holeScore.OnPlayerReachCurrentLevel += cameraFollow.UpdateTargetDistance;
         }
 
         private void OnDisable()
         {
-            playerScore.OnZombieKill -= cameraFollow.UpdateTargetDistance;
+            holeScore.OnPlayerReachCurrentLevel -= cameraFollow.UpdateTargetDistance;
         }
     }
 }

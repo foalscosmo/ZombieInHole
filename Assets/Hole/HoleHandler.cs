@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Managers;
 using Player;
 using UnityEngine;
 
@@ -8,16 +9,16 @@ namespace Hole
     {
         [SerializeField] private int normalSphereLayer;
         [SerializeField] private int fallingSphereLayer;
-        [SerializeField] private KillZombie killZombie;
+        [SerializeField] private HoleScore holeScore;
         [SerializeField] private MovementWithTransform movementWithTransform;
         private void OnEnable()
         {
-            killZombie.OnZombieKill += ScalePlayer;
+            holeScore.OnPlayerReachCurrentLevel += ScalePlayer;
         }
 
         private void OnDisable()
         {
-            killZombie.OnZombieKill -= ScalePlayer;
+            holeScore.OnPlayerReachCurrentLevel -= ScalePlayer;
         }
     
         private void ScalePlayer(float scaleAmount)

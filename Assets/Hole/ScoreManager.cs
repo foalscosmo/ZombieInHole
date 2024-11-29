@@ -8,8 +8,7 @@ namespace Hole
     public class ScoreManager : MonoBehaviour
     {
         [SerializeField] private KillZombie killZombie;
-        [SerializeField] private TextMeshProUGUI scoreText;
-        [SerializeField] private TextMeshProUGUI killScore;
+        [SerializeField] private HoleScore holeScore;
         [SerializeField] private int currentScore;
         [SerializeField] private float currentKills;
         
@@ -22,17 +21,14 @@ namespace Hole
         {
             killZombie.OnZombieKill -= SetScoreOnKill;
         }
-
-        private void Awake()
+        
+        private void SetScoreOnKill(int value)
         {
-            killScore.text = "Swallowed : " + currentKills;
-            scoreText.text = "Zombie Score : " + currentScore;
-        }
-
-        private void SetScoreOnKill(float value)
-        {
-            killScore.text = $"Swallowed : {currentKills += value}";
-            scoreText.text = $"Zombie Score : {currentScore += killZombie.ZombieValue}";
+            
+            holeScore.KillsText.text = $"Swallowed : {currentKills += 1}";
+            holeScore.ScoreText.text = $"Zombie Score : {currentScore += killZombie.ZombieValue}";
+            holeScore.SetPlayerScore(value);
+            holeScore.SetPlayerLevelScore(value);
         }
     }
 }
