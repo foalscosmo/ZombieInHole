@@ -7,11 +7,13 @@ TagManager:
   - Snake
   - Zombie
   - Building
+  - Body
+  - Nose
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PlayerBounds
   - Water
   - UI
   - Player

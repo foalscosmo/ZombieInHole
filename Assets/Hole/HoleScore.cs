@@ -3,7 +3,7 @@ using System.Globalization;
 using TMPro;
 using UnityEngine;
 
-namespace Managers
+namespace Hole
 {
     public class HoleScore : MonoBehaviour
     {
@@ -91,31 +91,7 @@ namespace Managers
                 currentLevelIndex++;
                 currentLevelScore = 0;
                 OnPlayerReachCurrentLevel?.Invoke(10f);
-                switch (currentLevelIndex)
-                {
-                    case 1:
-                        currentLevelMaxScore += 10;
-                        break;
-                    case 2:
-                        currentLevelMaxScore += 10;
-                        break;
-                    case 3:
-                        currentLevelMaxScore += 10;
-                        break;
-                    case 4:
-                        currentLevelMaxScore += 10;
-                        break;
-                    case 5:
-                        currentLevelMaxScore += 10;
-                        break;
-                    case 6:
-                        currentLevelMaxScore += 10;
-                        break;
-                    case 7:
-                        currentLevelMaxScore += 10;
-                        break;
-                }
-
+                currentLevelMaxScore += 10;
                 SetLevelIndexText();
                 levelScoreText.text = currentLevelScore + " / " + currentLevelMaxScore;
 

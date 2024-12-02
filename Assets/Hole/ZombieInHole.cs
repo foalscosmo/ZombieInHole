@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using AI;
 using UnityEngine;
 
@@ -10,63 +9,74 @@ namespace Hole
         [SerializeField] private Rigidbody rb;
         [SerializeField] private BotMovement botMovement;
         private float startSpeed;
+
         public event Action<GameObject> OnZombieKilled;
+
+        private int playerNoseLayer;
+        private int playerLayer;
+
+        private void Awake()
+        {
+            playerNoseLayer = LayerMask.NameToLayer("PlayerNose");
+            playerLayer = LayerMask.NameToLayer("Player");
+        }
 
         private void Start()
         {
             if (botMovement != null) startSpeed = botMovement.MoveSpeed;
         }
 
-        private bool hasTriggered;
-
         private void OnTriggerEnter(Collider other)
         {
-            test = true;
-            if (other.gameObject.layer == LayerMask.NameToLayer("PlayerNose"))
+            if (other.gameObject.layer == playerNoseLayer)
             {
-                if (botMovement != null) botMovement.MoveSpeed = 0;
-            }
-
-            if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-            {
-                if (!hasTriggered)
-                {
-                    rb.useGravity = false;
-                    StartCoroutine(Timer());
-                    hasTriggered = true;
-                }
+                StopBotMovement();
             }
         }
 
-        private bool test;
         private void OnTriggerStay(Collider other)
         {
-            if (other.gameObject.layer == LayerMask.NameToLayer("Player") && test)
+            if (other.gameObject.layer == playerLayer)
             {
-                rb.useGravity = true;
-                hasTriggered = false;
-                test = false;
+                EnableGravity();
             }
-        }
-
-        private IEnumerator Timer()
-        {
-            yield return new WaitForSecondsRealtime(0.1f);
-            rb.useGravity = true;
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.layer == LayerMask.NameToLayer("PlayerNose"))
+            if (other.gameObject.layer == playerNoseLayer)
             {
-                if (botMovement != null) botMovement.MoveSpeed = startSpeed;
-                OnZombieKilled?.Invoke(this.gameObject);
+                ResumeBotMovement();
+                OnZombieKilled?.Invoke(gameObject);
             }
 
-            if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
+            if (other.gameObject.layer == playerLayer)
+            {
+                EnableGravity();
+            }
+        }
+
+        private void StopBotMovement()
+        {
+            if (botMovement != null)
+            {
+                botMovement.MoveSpeed = 0;
+            }
+        }
+
+        private void ResumeBotMovement()
+        {
+            if (botMovement != null)
+            {
+                botMovement.MoveSpeed = startSpeed;
+            }
+        }
+
+        private void EnableGravity()
+        {
+            if (!rb.useGravity)
             {
                 rb.useGravity = true;
-                hasTriggered = false;
             }
         }
     }

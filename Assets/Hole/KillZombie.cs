@@ -1,22 +1,18 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Hole
 {
     public class KillZombie : MonoBehaviour
     {
         [SerializeField] private LayerMask botBody;
-        [SerializeField] private GameObject floatingText;
-        
+        [SerializeField] private FloatingTextPool floatingTextPool;
+
         public int ZombieValue { get; private set; }
 
         public event Action<int> OnZombieKill;
-        private void Awake()
-        {
-            InstantiateTextWhenCollect(0);
-        }
 
         private void OnTriggerExit(Collider other)
         {
@@ -24,15 +20,24 @@ namespace Hole
             {
                 ZombieValue = Mathf.RoundToInt(other.transform.localScale.x);
                 OnZombieKill?.Invoke(ZombieValue);
-                InstantiateTextWhenCollect(ZombieValue);
+                ShowFloatingText(ZombieValue);
             }
         }
-        
-        private void InstantiateTextWhenCollect(float value)
+
+        private void ShowFloatingText(float value)
         {
-            var transform1 = transform;
-            var text = Instantiate(floatingText, transform1.position, Quaternion.identity,transform1);
-            text.GetComponent<TextMeshPro>().text = "+" +value;
+            var text = floatingTextPool.GetText();
+            text.transform.position =
+                new Vector3(transform.position.x - 1f, transform.position.y + 7f, transform.position.z);
+            text.text = "+" + value;
+
+            StartCoroutine(ReturnTextToPoolAfterDelay(text, 1f));
+        }
+
+        private IEnumerator ReturnTextToPoolAfterDelay(TextMeshPro text, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            floatingTextPool.ReturnText(text);
         }
     }
 }

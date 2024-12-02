@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using AI;
+using Managers;
 using Scriptable_Obj;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -16,6 +17,17 @@ namespace Hole
         [SerializeField] private Vector2 spawnAreaMin;
         [SerializeField] private Vector2 spawnAreaMax;
         [SerializeField] private float botsMinSize;
+        public float BotsMinSize
+        {
+            get => botsMinSize;
+            set => botsMinSize = value;
+        }
+
+        public float BotMaxSize
+        {
+            get => botsMaxSize;
+            set => botsMaxSize = value;
+        }
         [SerializeField] private float botsMaxSize;
         [SerializeField] private int respawnBotTime;
         [SerializeField] private LayerMask playerLayer;
