@@ -47528,6 +47528,62 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956635940}
   m_Mesh: {fileID: 3284317394355905387, guid: 7292cbbcd062e3440b9895a64d229825, type: 3}
+--- !u!1 &958637831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 958637832}
+  - component: {fileID: 958637833}
+  m_Layer: 0
+  m_Name: BuildingPoolManager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &958637832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958637831}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 73.8807, y: 122.5, z: 65.15461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1003856817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958637833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958637831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2f80d3637e47f78984ebc58ea55a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botTypes:
+  - {fileID: 11400000, guid: ad42357bd79654aa09b3247917dee19c, type: 2}
+  poolSize: 5
+  spawnAreaMin: {x: -130, y: 130}
+  spawnAreaMax: {x: 130, y: -130}
+  botsMinSize: 12
+  botsMaxSize: 15
+  respawnBotTime: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  botPool: []
 --- !u!1 &959013422
 GameObject:
   m_ObjectHideFlags: 0
@@ -49917,6 +49973,8 @@ Transform:
   - {fileID: 1008930195}
   - {fileID: 792062874}
   - {fileID: 2000746027}
+  - {fileID: 958637832}
+  - {fileID: 1686173968}
   - {fileID: 1244806340}
   - {fileID: 710443845}
   m_Father: {fileID: 0}
@@ -50466,7 +50524,7 @@ MonoBehaviour:
   botTypes:
   - {fileID: 11400000, guid: 8139e3cd32ea04d44ac30722e9831da3, type: 2}
   - {fileID: 11400000, guid: 35fd0ad68a1d04e449aa9832ae776b5b, type: 2}
-  poolSize: 100
+  poolSize: 50
   spawnAreaMin: {x: -130, y: 130}
   spawnAreaMax: {x: 130, y: -130}
   botsMinSize: 1.2
@@ -85387,6 +85445,62 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684793889}
   m_Mesh: {fileID: 3284317394355905387, guid: 7292cbbcd062e3440b9895a64d229825, type: 3}
+--- !u!1 &1686173967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686173968}
+  - component: {fileID: 1686173969}
+  m_Layer: 0
+  m_Name: BuildingPoolManager (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1686173968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686173967}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 73.8807, y: 122.5, z: 65.15461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1003856817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1686173969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686173967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2f80d3637e47f78984ebc58ea55a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botTypes:
+  - {fileID: 11400000, guid: ad42357bd79654aa09b3247917dee19c, type: 2}
+  poolSize: 5
+  spawnAreaMin: {x: -130, y: 130}
+  spawnAreaMax: {x: 130, y: -130}
+  botsMinSize: 20
+  botsMaxSize: 25
+  respawnBotTime: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  botPool: []
 --- !u!1 &1688310243
 GameObject:
   m_ObjectHideFlags: 0
@@ -100632,7 +100746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botTypes:
   - {fileID: 11400000, guid: ad42357bd79654aa09b3247917dee19c, type: 2}
-  poolSize: 100
+  poolSize: 50
   spawnAreaMin: {x: -130, y: 130}
   spawnAreaMax: {x: 130, y: -130}
   botsMinSize: 1.2

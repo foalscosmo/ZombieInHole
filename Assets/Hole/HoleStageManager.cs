@@ -80,15 +80,15 @@ namespace Hole
                 case 3:
                     foreach (var pool in spherePoolManager)
                     {
-                        pool.BotMaxSize += 0.5f;
-                        pool.BotsMinSize += 0.5f;
+                        pool.BotMaxSize += 1f;
+                        pool.BotsMinSize += 1f;
                     }
                     break;
                 case 6:
                     foreach (var pool in spherePoolManager)
                     {
-                        pool.BotMaxSize += 0.5f;
-                        pool.BotsMinSize += 0.5f;
+                        pool.BotMaxSize += 1f;
+                        pool.BotsMinSize += 1f;
                     }
                     break;
             }
