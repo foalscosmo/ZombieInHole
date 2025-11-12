@@ -12,14 +12,7 @@ namespace Hole
         [SerializeField] private float zoomSpeed;
         [SerializeField] private float maxZoomDistance;
         [SerializeField] private float cameraAdjustValue;
-        [SerializeField] private DebugPanel debugPanel;
         [SerializeField] private float cameraZoomOutValue;
-
-        public float CameraZoomOutValue
-        {
-            get => cameraZoomOutValue;
-            set => cameraZoomOutValue = value;
-        }
         
         private float _currentDistance;
         private float _initialDistance; 
@@ -52,7 +45,6 @@ namespace Hole
             yield return new WaitForSecondsRealtime(0.3f);
             cameraAdjustValue += zoomAmount/10f;
             _currentDistance += (zoomAmount * zoomSpeed) / cameraZoomOutValue;
-            debugPanel.ZoomOutValueSlider.value = cameraZoomOutValue;
             _currentDistance = Mathf.Clamp(_currentDistance, 5, maxZoomDistance); 
         }
 

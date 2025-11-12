@@ -12,6 +12,7 @@ namespace Hole
 
         private Finger movementFinger;
         private Vector2 movementAmount;
+        private Vector2 wasdInput;
 
         public float MoveSpeed
         {
@@ -33,6 +34,36 @@ namespace Hole
             UnityEngine.InputSystem.EnhancedTouch.Touch.onFingerUp -= HandleLoseFinger;
             UnityEngine.InputSystem.EnhancedTouch.Touch.onFingerMove -= HandleFingerMove;
             EnhancedTouchSupport.Disable();
+        }
+
+        private void Update()
+        {
+            HandleWASDInput();
+        }
+
+        private void HandleWASDInput()
+        {
+            wasdInput = Vector2.zero;
+
+            // W key or Up Arrow - forward
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+                wasdInput.y += 1f;
+
+            // S key or Down Arrow - backward
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+                wasdInput.y -= 1f;
+
+            // A key or Left Arrow - left
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+                wasdInput.x -= 1f;
+
+            // D key or Right Arrow - right
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+                wasdInput.x += 1f;
+
+            // Normalize diagonal movement
+            if (wasdInput.magnitude > 1f)
+                wasdInput.Normalize();
         }
 
         private void HandleFingerMove(Finger movedFinger)
@@ -95,14 +126,38 @@ namespace Hole
 
         private void FixedUpdate()
         {
-            // Move only if there's active touch input
-            if (movementFinger == null || movementAmount.magnitude <= 0.1f)
+            // Get the final movement input (prioritize touch over WASD)
+            Vector2 finalMovementInput = GetFinalMovementInput();
+
+            // Move only if there's active input
+            if (finalMovementInput.magnitude <= 0.1f)
                 return;
 
-            var targetDirection = new Vector3(movementAmount.x, 0, movementAmount.y).normalized;
+            var targetDirection = new Vector3(finalMovementInput.x, 0, finalMovementInput.y).normalized;
             var transform1 = transform;
             var movePosition = transform1.position + targetDirection * (moveSpeed * Time.fixedDeltaTime);
             transform1.position = movePosition;
+        }
+
+        private Vector2 GetFinalMovementInput()
+        {
+            // Prioritize touch input over WASD
+            if (movementFinger != null && movementAmount.magnitude > 0.1f)
+                return movementAmount;
+            
+            return wasdInput;
+        }
+
+        // Public method to get current movement input (useful for animations, etc.)
+        public Vector2 GetCurrentMovement()
+        {
+            return GetFinalMovementInput();
+        }
+
+        // Public method to check if character is moving
+        public bool IsMoving()
+        {
+            return GetFinalMovementInput().magnitude > 0.1f;
         }
     }
 }

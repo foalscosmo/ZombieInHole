@@ -2,19 +2,19 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Hole
 {
     public class HoleStageManager : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI startTimeText;
-        [SerializeField] private GameObject adCanvas;
+        [SerializeField] private GameObject losePanel;
         [SerializeField] private int gameStageTimes;
         [SerializeField] private int currentStage = 0;
-        [SerializeField] private bool isTimeForAd = false;
-        private float _currentCountdownTime;
         [SerializeField] private HoleScore holeScore;
         [SerializeField] private List<SpherePoolManager> spherePoolManager = new();
+        private float _currentCountdownTime;
 
         private void OnEnable()
         {
@@ -30,21 +30,17 @@ namespace Hole
         private void Start()
         {
             _currentCountdownTime = gameStageTimes;
-            adCanvas.SetActive(false);
+            losePanel.SetActive(false);
         }
         
         private void Update()
         {
-            if (isTimeForAd) return;
-
             _currentCountdownTime -= Time.deltaTime; 
             UpdateTimeDisplay(_currentCountdownTime);
             
             if (_currentCountdownTime <= 0f)
             {
-                isTimeForAd = true;
-                adCanvas.SetActive(true); 
-                ShowAd();
+                losePanel.SetActive(true);
                 Time.timeScale = 0;
             }
         }
@@ -58,41 +54,25 @@ namespace Hole
 
             startTimeText.color = remainingTime <= 5f ? Color.red : Color.blue;
         }
-
-        private void ShowAd()
+        
+        public void ResetTimer()
         {
-            Debug.Log("Showing Add...");
-        }
-
-        public void OnAdFinished()
-        {
-            isTimeForAd = false;
-            adCanvas.SetActive(false);
-            Time.timeScale = 1;
-            currentStage++; 
             _currentCountdownTime = gameStageTimes;
         }
 
-        private void SetStageSize(float index)
+        private void SetStageSize(float _)
         {
-            switch (currentStage)
+            foreach (var pool in spherePoolManager)
             {
-                case 3:
-                    foreach (var pool in spherePoolManager)
-                    {
-                        pool.BotMaxSize += 1f;
-                        pool.BotsMinSize += 1f;
-                    }
-                    break;
-                case 6:
-                    foreach (var pool in spherePoolManager)
-                    {
-                        pool.BotMaxSize += 1f;
-                        pool.BotsMinSize += 1f;
-                    }
-                    break;
+                pool.BotMaxSize += 1f;
+                pool.BotsMinSize += 1f;
             }
             
+            foreach (var pool in spherePoolManager)
+            {
+                pool.BotMaxSize += 1f;
+                pool.BotsMinSize += 1f;
+            }
         }
     }
 }

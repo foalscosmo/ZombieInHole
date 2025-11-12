@@ -103,7 +103,6 @@ namespace Hole
 
         private void ReturnBotToPool(GameObject bot)
         {
-            // bot.SetActive(false);
             var randomSize = Random.Range(botsMinSize, botsMaxSize);
             bot.transform.localScale = new Vector3(randomSize, randomSize, randomSize);
 

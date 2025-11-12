@@ -27,7 +27,13 @@ namespace Hole
             var decreasedAmount = scaleAmount / 20f;
             Vector3 newScale = current + new Vector3(decreasedAmount,0, decreasedAmount);
             transform.transform.DOScale(newScale, 0.5f);
-            movementWithTransform.MoveSpeed += scaleAmount / 20f;
+            movementWithTransform.MoveSpeed += scaleAmount / 8f;
+        }
+
+        public void ResetPlayer()
+        {
+            transform.transform.DOScale(1, 0.5f);
+            transform.position = new  Vector3(0, 1.075f, 0);
         }
 
         private void OnTriggerEnter(Collider other)

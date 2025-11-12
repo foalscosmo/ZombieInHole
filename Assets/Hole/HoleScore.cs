@@ -73,9 +73,18 @@ namespace Hole
             levelScoreText.text = currentLevelScore + " / " + currentLevelMaxScore;
         }
 
-        public void SetPlayerLevelScore(float amount)
+        public void SetPlayerLevelScore(float _)
         {
             currentLevelScore ++;
+            levelScoreText.text = currentLevelScore + " / " + currentLevelMaxScore;
+        }
+
+        public void RestartPlayerLevelScore(int amount)
+        {
+            SetPlayerStartScore();
+            SetLevelIndexText();
+            SetPlayerStartLevelScore();
+            currentKillText.text = $"Kills : {currentKillScore}";
             levelScoreText.text = currentLevelScore + " / " + currentLevelMaxScore;
         }
 
