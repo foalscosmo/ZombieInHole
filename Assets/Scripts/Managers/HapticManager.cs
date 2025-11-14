@@ -1,4 +1,4 @@
-using CandyCoded.HapticFeedback;
+// using CandyCoded.HapticFeedback;
 using Player;
 using UnityEngine;
 
@@ -30,16 +30,16 @@ namespace Managers
                 switch (index)
                 {
                     case 1f:
-                        HapticFeedback.MediumFeedback();
+                        //HapticFeedback.MediumFeedback();
                         break;
                     case 2f:
-                        HapticFeedback.MediumFeedback();
+                        //HapticFeedback.MediumFeedback();
                         break;
                     case 4f:
-                        HapticFeedback.MediumFeedback();
+                        //HapticFeedback.MediumFeedback();
                         break;
                     case 8f:
-                        HapticFeedback.MediumFeedback();
+                        //HapticFeedback.MediumFeedback();
                         break;
                 }
             }

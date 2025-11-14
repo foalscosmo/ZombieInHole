@@ -32,8 +32,8 @@ namespace Hole
 
         public void ResetPlayer()
         {
-            transform.transform.DOScale(1, 0.5f);
-            transform.position = new  Vector3(0, 1.075f, 0);
+            transform.transform.localScale = new  Vector3(1, 1.5f, 1);
+            transform.position = new  Vector3(0, 0.1f, 0);
         }
 
         private void OnTriggerEnter(Collider other)

@@ -1,5 +1,5 @@
 using UnityEngine;
-using CandyCoded.HapticFeedback;
+// using CandyCoded.HapticFeedback;
 
 namespace Hole
 {
@@ -27,7 +27,7 @@ namespace Hole
                 switch (index)
                 {
                     case 1:
-                        HapticFeedback.MediumFeedback();
+                        //HapticFeedback.MediumFeedback();
                         break;
                 }
             }
